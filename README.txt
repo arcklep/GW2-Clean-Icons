@@ -6,6 +6,8 @@ spirit of WoW's CleanIcons:
 
 - the ragged, hand-painted black frame cut off
 - AI upscaled (Real-ESRGAN) to remove the blur of older 64 px art, then scaled to 128 x 128
+- the original's fine grain and brush texture laid back over the upscale, so the icons keep the
+  artists' gritty look instead of the smooth "AI" look
 - lightly sharpened
 - one consistent flat style: rounded corners, no border (PNG with transparent corners)
 
