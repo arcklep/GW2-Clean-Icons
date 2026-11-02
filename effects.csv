@@ -1,0 +1,428 @@
+effect_name,effect_id,file_id
+"""Sic 'Em!""",,104025
+"""We Will Never Yield!""",,3680223
+A.E.D.,,699525
+Additional Missiles,,1770201
+Adrenal Health,,1012796
+Aegis,743,102854
+Afterburner,,1769929
+Agony,,514400
+Air Attunement,,103048
+Alacrity,30328,1938787
+Altered Chord,,3679975
+Aquatic Stance,,1770328
+Arcane Echo,,103356
+Arcane Lightning,,1012289
+Arcane Shield,,65735
+Ashes of the Just,,1770477
+Assassin's Signet,,104076
+Attack of Opportunity,,1012623
+Attacker's Insight,,1770023
+Balanced Stance,,104112
+Bane Signet,,103638
+Banished,,103109
+Barrier Signet,,2503688
+Basilisk Venom,,104109
+Battle Scars,,2261515
+Bear Stance,,1770561
+Beastly Warden,,1012612
+Berserker's Power,,1012816
+Berserker's Stance,,103864
+Big Boomer,,2261506
+Binding Blade,,103274
+Biorhythm,,2503639
+Bladesong Dissonance,,2479381
+Bladesong Harmony,,2479382
+Bladesong Sorrow,,2479383
+Bladeturn Requiem,,2479384
+Bleeding,736,102848
+Blight,,2479350
+Blinded,720,102837
+Blood Reckoning,,1058642
+Blur,,103284
+Boons Converted to Conditions,,156661
+Bounding Dodger,,1058554
+Bountiful Power,,1012290
+Brisk Pacing,,3680030
+Burning,737,102849
+Burst Precision,,1012780
+Burst of Strength,,1013008
+Cascading Corruption,,3790488
+Chak Shield,,3713065
+Chant of Action,,3680056
+Chant of Freedom,,3680057
+Chant of Recuperation,,3680058
+Chaos Aura,,2261518
+Chaos Corrosion,,2039773
+Chilled,722,102839
+Clarity,,3379004
+Combat High,,3680055
+Combo Field: Dark,,156655
+Combo Field: Ethereal,,156655
+Combo Field: Fire,,156655
+Combo Field: Light,,156655
+Combo Field: Lightning,,156655
+Combo Field: Water,,156655
+Compounding Power,,1012520
+Confusion,861,102880
+Conjure Earth Attributes,,103342
+Conjure Fire Attributes,,103328
+Conjure Flame Attributes,,103338
+Conjure Frost Attributes,,103348
+Conjure Lightning Attributes,,103369
+Conjured Barrier,,2039792
+Continuum Shift,,1012882
+Cooling Vapor,,1770388
+Cosmic Wisdom,,3680202
+Counter Ready,,103124
+Crashing Courage,,2479369
+Crescendo,,3680163
+Crescent Wind,,2491579
+Crippled,721,102838
+Crushing Abyss,,3379187
+Cry of Frustration,,103731
+Damage Increase,,156657
+Danger Time,,1012479
+Daring Advance,,3680140
+Dark Aura,,2261519
+Daze,,433474
+Deadly Blades,,2479337
+Deafening Drum,,3680161
+Death's Advance,,2779165
+Death's Carapace,,1012567
+Debilitated,,2678688
+Decapitate Duration Increase,,156659
+Defiant Stance,,699533
+Defy Pain,,103951
+Devourer Venom,,104097
+Disenchantment,,1770659
+Distortion,,103284
+Distracting Daggers,,1058630
+Distracting Throw,,3379195
+Diversion,,103769
+Dolyak Signet,,104121
+Dolyak Stance,,1770568
+Drum Playing,,3680161
+Earth Attunement,,102870
+Echo,,103774
+Effulgent Stance,,3680156
+Electric Enchantment,,3680122
+Elemental Balance,,3679935
+Elemental Empowerment,,2491529
+Elements of Rage,,1769921
+Empowered Armaments,,3679960
+Empowering Auras,,2491522
+Enduring Pain,,102867
+Energize,,3379085
+Enfeebled Force,,2156518
+Evolved,,3680040
+Exalted Hammer,,3713066
+Exhaustion,,1876876
+Exhilarating Ephemera,,3680053
+Exigency Protocols,,2503631
+Explosive Temper,,2261520
+Extirpation,,3379166
+Facet of Chaos,,1012986
+Facet of Darkness,,1013011
+Facet of Elements,,1013012
+Facet of Light,,1012991
+Facet of Nature,,1058606
+Facet of Nature—Assassin,,2029307
+Facet of Nature—Centaur,,2029308
+Facet of Nature—Demon,,2029309
+Facet of Nature—Dragon,,2029310
+Facet of Nature—Dwarf,,2029311
+Facet of Strength,,1013013
+Familiar's Prowess,,3679942
+Fear,791,102869
+Feeding Frenzy,,104036
+Feel No Pain,,1029969
+Fencer's Finesse,,1012503
+Ferocious Symbiosis,,2503640
+Fierce as Fire,,2491547
+Fire Attunement,,102801
+Fire Aura,,2261521
+Fired Up!,,103339
+Flame Wheel,,2491582
+Flowing Resolve,,2479368
+Fluid Strikes,,1012725
+Flustering Flute,,3680160
+Flute Playing,,3680160
+Focusing,,3378998
+Force Signet,,2503690
+Force of Nature,,3256318
+Force of Will,,1012410
+Forced Engagement,,961439
+Forerunner of Death,,2491537
+Forest's Fortification,,2503712
+Forged Surfer Dash,,3713067
+Form of the Assassin,,3680045
+Form of the Dervish,,3680046
+Form of the Mesmer,,3680047
+Form of the Monk,,3680048
+Form of the Warrior,,3680049
+Fractured,,1770069
+Fresh Air,,1012277
+Frost Aura,,2261522
+Fulgor,,3379081
+Furious Surge,,1012781
+Fury,725,102842
+Gale Force,,3679998
+Galvanic Sensitivity,,1896037
+Gaseous State,,3680041
+Grand Entrance,,2261505
+Griffon Stance,,1770569
+Grim Specter,,1770528
+Grinding Stones,,1770334
+Guns and Glory,,2491554
+Harden,,3379086
+Hardened Auras,,2491519
+Harmonic Sensitivity,,563472
+Harmonious Harp,,3680162
+Harp Playing,,3680162
+Heal,,156662
+Healing,,156662
+Healing Signet,,102866
+Healing and Barrier Increase,,156662
+Heightened Focus,,1012806
+Hidden Killer,,1012733
+Holo-Dancer Decoy,,3713068
+Hooked Spear,,104084
+Hunter's Prowess,,3379180
+Ice Drake Venom,,104098
+Icy Coil,,2491583
+Igniting Brand,,961469
+Illuminated,,3379001
+Illusion of Life,,103754
+Illusionary Membrane,,1012472
+Immobile,727,102844
+Imperial Guard,,2491624
+Implacable Foe,,2479341
+Impossible Odds,,1013014
+Improved Kalla's Fervor,,1770161
+Infuse Light,,1012990
+Inspiring Virtue,,1466322
+Instant Reflexes,,1012714
+Invigorated Bulwark,,1012402
+Invoking Harmony,,2128015
+Justice,,103677
+Kalla's Fervor,,1770161
+Kinetic Abundance,,2156519
+Kinetic Battery,,1012384
+Kinetic Charge,,1012384
+Last Rites,,1012545
+Lead Attacks,,1012773
+Legendary Assassin Stance,,1030005
+Legendary Centaur Stance,,1024105
+Legendary Demon Stance,,961413
+Legendary Dwarf Stance,,961410
+Legendary Entity Stance,,3680050
+"Lesser ""Sic 'Em!""",,104025
+Lethal Tempo,,2479325
+Lich Form,,103807
+Light Aura,,867451
+Light on Your Feet,,1012649
+Lightning Blitz,,103356
+Lightning Rod Charges,,3379115
+Lingering Light,,1128537
+Lingering Spirits,,3680170
+Litany of Wrath,,699527
+Lively Lute,,3680159
+Lotus Training,,1058552
+Luminary's Blessing,,3679965
+Lute Playing,,3680159
+Magnetic Aura,,2261524
+Med Kit Bonus,,103395
+Meltdown,,3790487
+Metal Legion Guitar,,3713070
+Might,740,102852
+Mind Wrack,,103732
+Mirage Cloak,,1770144
+Mirror,,103726
+Mistburn Mortar,,3713071
+Mitotic State,,3680039
+Moa Stance,,1770570
+Molten Armor,,1770377
+Morphed,,103727
+Natural Balance,,1128535
+Nature's Strength,,3256319
+Nightmare Weapon,,3680180
+Oaken Cudgel,,3256385
+One Wolf Pack,,1770558
+Opening Strike,,1012627
+Otter's Compassion,,3680123
+Overcharged Cartridges,,2491652
+Palm Strike,,1058631
+Peak Performance,,1012812
+Peal of Discord,,831712
+Peal of Harmony,,2156519
+Perfect Weave,,1770326
+Perilous Gift,,2503724
+Persisting Flames,,1012312
+Phantasmal Force,,1012505
+Phantom Pain,,1769956
+Photon Forge,,1770391
+Piercing Stance,,3680154
+Plague,,103312
+Plague Signet,,103812
+Plasmatic State,,3680042
+Poisoned,723,102840
+Positive Flow,,2604722
+Power Block,,1012494
+Primordial Stance,,1770332
+Prodigious Pincher,,3680054
+Protection,717,102834
+Prowl,,103960
+Psychic Force,,2479386
+Pulmonary Impact,,1058634
+Quick Draw,,1012648
+Quickness,1187,1012835
+Radiant Armaments,,3680142
+Radiant Blindness,,1770068
+Radius,,156665
+Rampage,,103571
+Reaver's Curse,,2491534
+Rebound,,1029984
+Reflection,,65735
+Regeneration,718,102835
+Renewal of Fire,,1424232
+Repeater,,103878
+Repose,,2479374
+Resistance,26980,961398
+Resolute Evasion,,1012697
+Resolute Stance,,3680141
+Resolution,873,2440718
+Resolve,,103652
+Revealed,890,102887
+Reversal of Fortune,,2479366
+Rewinder,,2175058
+Ripple,,3379088
+Rising Momentum,,1058535
+Rite of the Great Dwarf,,961437
+Rock Barrier,,102858
+Rock Guard,,1058650
+Rocky Loop,,2491581
+Rot Wallow Venom,,2503654
+Saint of zu Heltzer,,2491539
+Scoundrel's Luck,,3680052
+Seethe,,3379087
+Shadow Refuge,,103911
+Sharpen Spines,,1128607
+Sharpening Stone,,104004
+Shield of Wrath,,103634
+Shielding Hands,,3680051
+Shocking Aura,,2261527
+Sight beyond Sight,,1770666
+Signet of Agility,,104081
+Signet of Air,,103353
+Signet of Domination,,103612
+Signet of Earth,,103352
+Signet of Ferocity,,1012775
+Signet of Fire,,103340
+Signet of Fury,,104119
+Signet of Humility,,1012893
+Signet of Illusions,,103756
+Signet of Inspiration,,103750
+Signet of Judgment,,103662
+Signet of Mercy,,103667
+Signet of Midnight,,57900
+Signet of Might,,103798
+Signet of Rage,,104113
+Signet of Renewal,,103590
+Signet of Spite,,58459
+Signet of Stamina,,104128
+Signet of Stone,,102886
+Signet of Water,,103351
+Signet of Wrath,,103643
+Signet of the Ether,,699528
+Signet of the Hunt,,104005
+Signet of the Locust,,58463
+Signet of the Wild,,103542
+Silent Scope,,3790489
+Skale Venom,,104078
+Skelk Venom,,699532
+Slow,26766,961397
+Solid State,,3680043
+Soothing Mist,,1012327
+Soul Shards,,3379000
+Soulcleave's Summit,,1770589
+Spectral Walk,,103846
+Spectrum Shield,,1770414
+Spider Venom,,103513
+Splinter Weapon,,3680182
+Split Second,,2175059
+Stability,1122,415959
+Stalwart Stance,,3680153
+Static Charge,,1029987
+Steadfast Rejuvenation,,1012698
+Stealth,13017,62777
+Stim State,,2491640
+Stone Heart,,1012302
+Stone Resonance,,1770329
+Strength of the Pack,,103606
+Stun,,522727
+Summon Kryptis Turret,,3713069
+Supercharged Cartridges,,2491652
+Superconducting Signet,,2503691
+Superspeed,5974,103458
+Swiftness,719,102836
+Symbol of Luminance,,3379002
+Symbolic Avenger,,1012461
+Tactical Reload,,2491632
+Take Root,,240703
+Taste for Blood,,1012535
+Taunt,27705,1228472
+Tectonic Shift,,103342
+Tempestuous Aria,,1029946
+Thermal Vision,,1012358
+Time Bomb,,1012478
+Time Echo,,1012896
+Time Sink,,2175060
+Tome of Resolve,,1770478
+Torment,19426,598887
+Tornado,,103281
+Tranquil,,1012988
+Transcendent Tempest,,2207773
+True Nature,,1058607
+Twice as Vicious,,1769986
+Twist of Fate,,1770331
+Unblockable,,2261523
+Unbridled Chaos,,1896037
+Unbridled Fear,,1770100
+Unflinching Fortitude,,1770567
+Unhindered Combatant,,1058553
+Unravel,,1770330
+Unstable Skritt Bomb,,3713064
+Unyielding Spirit,,2128014
+Urn of Saint Viktor,,2491625
+Valorous Stance,,3680155
+Vampiric Aura,,1012539
+Vampiric Infection,,514408
+Vampiric Mark,,699529
+Vengeful Hammers,,961436
+Vigor,726,102843
+Violent Currents,,2156520
+Virtue of Courage,,103258
+Virtue of Resolve,,103652
+Vow of the Untamed,,2503643
+Vulnerability,738,102850
+Vulture Stance,,1770571
+Water Arrow,,103359
+Water Attunement,,102865
+Waterlogged,,2039793
+Weakening Strikes,,1058547
+Weakness,742,102853
+Weapon of Warding,,3680183
+Weave Self,,1770326
+Whirlpool,,347235
+Willing Host,,3679954
+Wind Force,,3680044
+Woven Air,,1770333
+Woven Earth,,1770342
+Woven Fire,,1770336
+Woven Water,,1770340
+Wuthering Wind,,3679993
+Xinrae's Weapon,,3680168
+You do not lose health from being downed.,,1128631
+Zealot's Flame,,103231
+Zephyrite Sun Crystal,,3713072

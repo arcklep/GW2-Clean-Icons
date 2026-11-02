@@ -1,0 +1,14 @@
+{
+  "name": "GW2 Clean Icons",
+  "version": "1.1.0",
+  "icon_size": 128,
+  "icons": 2362,
+  "skills": 4717,
+  "effects": 427,
+  "layout": {
+    "icons": "icons/<file id>.png (file id = the number at the end of the icon's render.guildwars2.com URL)",
+    "skills.json": "skill id -> file id",
+    "effects.json": "effect name -> file id",
+    "effect_ids.json": "effect id (arcdps) -> file id, core boons and conditions"
+  }
+}
