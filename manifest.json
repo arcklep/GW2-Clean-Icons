@@ -1,14 +1,15 @@
 {
   "name": "GW2 Clean Icons",
-  "version": "1.1.0",
+  "version": "1.2.0",
   "icon_size": 128,
-  "icons": 2362,
-  "skills": 4717,
+  "icons": 2740,
+  "skills": 5642,
   "effects": 427,
   "layout": {
     "icons": "icons/<file id>.png (file id = the number at the end of the icon's render.guildwars2.com URL)",
-    "skills.json": "skill id -> file id",
+    "skills.json": "skill id (API and arcdps) -> file id",
     "effects.json": "effect name -> file id",
-    "effect_ids.json": "effect id (arcdps) -> file id, core boons and conditions"
+    "effect_ids.json": "effect id (arcdps) -> file id, core boons and conditions",
+    "icons_square": "icons_square/<file id>.png, the same icons with square corners"
   }
 }

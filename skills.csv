@@ -1,10 +1,15 @@
 skill_id,skill_name,file_id
+910,Poisoned,102840
+1006,Resurrect,946343939
+1066,Resurrect,946343939
+1097,Finisher,622025
 1110,Throw Gunk,102940
 1115,Branch Leap,102945
 1118,Throw Chain,102946
 1123,Consume Plasma,102949
 1125,Eat Egg,102934
 1129,Ice Shard Stab,102953
+1130,Throw Lava Rock,951720764
 1131,Mace Head Crack,102955
 1139,Healing Seed,102961
 1141,Skull Fear,102963
@@ -12,11 +17,15 @@ skill_id,skill_name,file_id
 1162,Whirling Axe,102941
 1167,Whirling Strike,103490
 1175,Bandage,102928
+1196,Revive (Pet),103997
 1279,Binding Roots,62248
+1286,Jacarandas Embrace Minion,1770562
 1355,Slash,62248
 1359,Flurry,62248
 1364,Whirlwind,62248
 1408,Galloping Slash,62248
+1421,Aimed Shot Wv W,103021
+1508,Gatling Fists,943676293
 1510,Dual Attack,103041
 1512,Shoot,102923
 1531,Slash,103031
@@ -29,6 +38,7 @@ skill_id,skill_name,file_id
 1641,Stab,62248
 1642,Lunge,62248
 1644,Smash,62248
+1656,Whirling Assault,940624538
 1691,Slash,62248
 1932,Trample,62248
 1940,Slash,62248
@@ -36,12 +46,16 @@ skill_id,skill_name,file_id
 1996,Frost Trap,103074
 2013,Axe,103041
 2014,Cyclone Spin,102822
+2064,Life Blast,103260
 2131,Sever Artery,103003
 2132,Gash,103004
 2133,Final Thrust,103005
 2134,Slash,102927
 2135,Savage Leap,102778
 2136,Whirlwind Attack,103093
+2205,Flanking Strike Wv W,103112
+2206,Hornet Sting Wv W,103024
+2207,Blinding Powder Wv W,103113
 2302,Flurry,103045
 2365,Punch,62248
 2367,Branded Crystals,62248
@@ -89,12 +103,53 @@ skill_id,skill_name,file_id
 3101,Diseased Bite,62248
 3102,Slash,62248
 3103,Screech,62248
+3632,Fiend Leech Wv W,103088
+3633,Bone Shard Bone Fiend,991710052
+3635,Putrid Explosion Bone Minion,102782
+3636,Bone Slash Bone Minion,920513688
+3642,Slash Shadow Fiend,902114866
+3644,Bone Shard Bone Fiend,991710052
+3647,Charge Warhorn Wv W,2207786
+3652,Bone Slash Jagged Horror,920513688
+3661,Twisting Fang Thief Minion,103071
+3662,Twisting Fang Thief Minion,103071
+3663,Twisting Fang Thief Minion,103071
+3665,Scorpion Wire Thief Minion,103235
+3666,Unload Thief Minion,103129
+3669,Black Powder Thief Minion,103236
 3717,Frost Spit,62248
 3777,Buff Passive Oakheart,103058
 3786,Maul,103032
 3787,Lunge,103032
 3788,Jab,103032
 3789,Frozen Burst,103243
+3815,Lightning Strike Wv W,103134
+3816,Chain Lightning Wv W,102964
+3818,Long Range Shot Wv W,102827
+3819,Point Blank Shot Wv W,103251
+3820,Rapid Fire Wv W,102828
+3821,Mace Smash Wv W,103121
+3822,Crushing Blow Wv W,103149
+3823,Pulverize Wv W,103122
+3825,Shield Bash Wv W,103002
+3828,Bola Shot Wv W,2261529
+3830,Crippling Talon Wv W,103165
+3831,Mace Smash Wv W,103121
+3832,Crushing Blow Wv W,103149
+3833,Pulverize Wv W,103122
+3835,Hilt Bash Wv W,103985
+3837,Call To Arms Wv W,103233
+3838,Rifle Butt Wv W,102766
+3839,Volley Wv W,103249
+3840,Bleeding Shot Wv W,103254
+3841,Jump Shot Wv W,102798
+3842,Flame Burst Wv W,102959
+3847,Bola Toss Wv W,2261529
+3848,Throw Bolas Wv W,103015
+3849,Hammer Swing NPC,103178
+3852,Hammer Shock NPC,103256
+3853,Back Breaker NPC,103086
+3854,Black Powder Wv W,103236
 5487,Frozen Burst,103243
 5489,Lightning Whip,102901
 5490,Comet,103319
@@ -202,6 +257,7 @@ skill_id,skill_name,file_id
 5659,Rock Anchor,103378
 5661,Murky Water,103379
 5662,Magnetic Current,103227
+5663,Fiery Rush Leap,103329
 5666,Glyph of Elementals,103380
 5671,Static Field,103182
 5675,Phoenix,103039
@@ -222,6 +278,7 @@ skill_id,skill_name,file_id
 5695,Rock Barrier,102858
 5696,Dust Devil,103080
 5697,Fiery Whirl,103385
+5703,Arcane Shield (Explosion),65735
 5717,Burning Retreat,103204
 5718,Ring of Fire,103183
 5719,Flame Leap,103386
@@ -245,10 +302,12 @@ skill_id,skill_name,file_id
 5752,Electrified Tornado,102964
 5753,Dust Tornado,103080
 5754,Debris Tornado,102914
+5758,Debris Tornado,102914
 5760,Renewal of Air,1424230
 5761,Renewal of Earth,1424231
 5762,Renewal of Fire,1424232
 5763,Renewal of Water,1424233
+5767,Cone Of Cold Healing,102780
 5780,Hurl,102974
 5782,Geyser,103290
 5792,Blinding Flash,102831
@@ -282,6 +341,7 @@ skill_id,skill_name,file_id
 5836,Flame Turret,103410
 5837,Net Turret,103110
 5838,Thumper Turret,103201
+5840,Net Attack,102982
 5842,Bomb,103091
 5857,Healing Turret,103413
 5860,Elixir C,103414
@@ -295,6 +355,7 @@ skill_id,skill_name,file_id
 5889,Thump,103425
 5893,Electrified Net,103411
 5900,Smoke Screen,103426
+5903,Flame Turret Damage,103410
 5904,Tool Kit,103427
 5905,Pry Bar,103428
 5910,Rocket Boots,103430
@@ -313,6 +374,7 @@ skill_id,skill_name,file_id
 5935,Glob Shot,103439
 5936,Acid Bomb,103440
 5937,Super Elixir,103441
+5939,Glue Bomb,103442
 5957,Detonate Rifle Turret,103447
 5960,Detonate Thumper Turret,103447
 5961,Detonate Healing Turret,103447
@@ -328,6 +390,7 @@ skill_id,skill_name,file_id
 5973,Superspeed,103458
 5978,Toss Elixir H,103462
 5980,Cleansing Burst,103463
+5981,Healing Turret (Heal),103413
 5982,Launch Personal Battering Ram,103464
 5983,Rocket Kick,103465
 5984,Detonate Net Turret,103447
@@ -354,6 +417,7 @@ skill_id,skill_name,file_id
 6050,Lesser Grenade Barrage,103294
 6053,Magnetic Shield,103473
 6054,Static Shield,103474
+6055,Static Shield,103474
 6057,Throw Shield,103424
 6077,Toss Elixir C,103453
 6078,Detonate Elixir C,103414
@@ -408,6 +472,7 @@ skill_id,skill_name,file_id
 6181,Throw Napalm,103205
 6182,Harpoon,103235
 6183,Supply Crate,103419
+6334,Rush Hares Speed,951775385
 9080,Leap of Faith,103587
 9081,Whirling Wrath,103574
 9082,Shield of Wrath,103634
@@ -440,6 +505,7 @@ skill_id,skill_name,file_id
 9115,Virtue of Justice,103034
 9118,Virtue of Courage,103258
 9120,Virtue of Resolve,103652
+9121,Protector's Strike (Counter Hit),103202
 9122,Bolt of Wrath,2029302
 9124,Banish,103109
 9125,Hammer of Wisdom,103655
@@ -464,8 +530,10 @@ skill_id,skill_name,file_id
 9161,Symbol of Protection,103161
 9163,Signet of Mercy,103667
 9168,Sword of Justice,103669
+9170,Sword Of Justice Something,103669
 9175,Bow of Truth,103671
 9182,Shield of the Avenger,103673
+9183,Shield Of The Avenger Something,103673
 9187,Purging Flames,103675
 9189,Spear of Light,103677
 9190,Zealot's Flurry,103678
@@ -482,6 +550,7 @@ skill_id,skill_name,file_id
 9210,Renewing Current,103697
 9211,Reveal the Depths,103698
 9212,Shackle,103699
+9221,Receive The Light Pulse,103089
 9224,Shield of Absorption,103704
 9226,Pull,103586
 9227,Sword Wave,103705
@@ -496,6 +565,24 @@ skill_id,skill_name,file_id
 9260,Zealot's Embrace,103683
 9265,Empower,103636
 9268,Virtue of Courage,103258
+9284,Flame Blast (Minor/Major/Superior Sigil of Fire),220678
+9288,Minor Sigil of Blood,220986
+9292,Lightning Strike (Minor/Major/Superior Sigil of Air),220676
+9293,Wave of Healing (Minor Sigil of Renewal),619704
+9298,Major Sigil Of Restoration,220999
+9413,Superior Sigil Of Restoration,220671
+9425,Frost Burst (Minor Sigil of Hydromancy),221000
+9427,Frost Burst (Major Sigil of Hydromancy),221001
+9428,Frost Burst (Superior Sigil of Hydromancy),220689
+9431,Ring of Earth (Major Sigil of Geomancy),221005
+9432,Ring of Earth (Minor Sigil of Geomancy),221004
+9433,Ring of Earth (Superior Sigil of Geomancy),220687
+9457,Major Sigil of Blood,220987
+9458,Superior Sigil of Blood,220681
+9586,Superior Rune Of The Dolyak,220698
+9604,Frozen Burst (Rune of the Ice),220709
+9628,Fire Nova (Superior Rune of the Firebrand),1766387
+10166,Back Fire,103730
 10168,Confusing Images,103622
 10169,Chaos Storm,103156
 10170,Mind Slash,103188
@@ -533,12 +620,16 @@ skill_id,skill_name,file_id
 10213,Mantra of Recovery,103744
 10214,Power Return,103745
 10216,Phantasmal Warlock,103746
+10217,Mage Strike,989769562
 10218,Mind Stab,103584
 10219,Spatial Surge,103615
 10220,Illusionary Wave,103585
 10221,Phantasmal Berserker,103747
+10222,Phantasmal Berserker Phantasm Damage,103747
 10224,Phantasmal Rogue,103749
+10228,Illusionary Leap,103722
 10229,Magic Bullet,103559
+10230,Illusionary Sword Attack,989769562
 10232,Signet of Domination,103612
 10234,Signet of Midnight,57900
 10236,Signet of Inspiration,103750
@@ -552,16 +643,26 @@ skill_id,skill_name,file_id
 10258,Siren's Call,103759
 10259,Blinding Tide,103760
 10260,Illusion of Drowning,103761
+10266,Disenchanting Bolt,103764
 10267,Phantasmal Disenchanter,103764
 10273,Winds of Chaos,103100
 10276,Illusionary Counter,103766
+10277,Illusionary Counter Hit,103766
 10280,Illusionary Riposte,103767
+10281,Illusionary Riposte Hit,103767
 10282,Phantasmal Warden,103768
+10284,Illusionary Unload,103129
 10285,The Prestige,103282
 10287,Diversion,103769
 10289,Ether Bolt,103770
 10290,Ether Blast,103557
 10291,Ether Clone,103771
+10294,Spatial Surge Additional,103615
+10295,Ether Bolt,103770
+10296,Winds Of Chaos Staff Clone,103100
+10297,Mind Slash Sword Clone,103188
+10298,Mind Gash Sword Clone,103189
+10299,Mind Stab Sword Clone,103584
 10302,Feedback,103773
 10310,Phase Retreat,103775
 10311,Time Warp,103620
@@ -570,18 +671,23 @@ skill_id,skill_name,file_id
 10316,Jab,103778
 10317,Evasive Strike,103779
 10318,Feigned Surge,103780
+10319,Stab Spear Clone,103777
+10320,Jab Spear Clone,103778
 10325,Slipstream,103785
 10327,Imminent Voyage,103786
 10328,Phantasmal Whaler,103787
+10330,Phantasmal Whalers Volley,103787
 10331,Chaos Armor,103765
 10333,Mirror Blade,103789
 10334,Blurred Frenzy,103790
 10337,Swap,103728
+10338,Shadow Assault,103552
 10341,Phantasmal Defender,103791
 10356,Feedback,103773
 10358,Counter Blade,103792
 10363,Into the Void,103758
 10366,Deception,103762
+10367,Mind Blast,103733
 10372,Bite,103522
 10373,Chomp,104036
 10374,Frenzy,103599
@@ -613,6 +719,7 @@ skill_id,skill_name,file_id
 10561,Rending Claws,103811
 10562,Plague Signet,103812
 10570,Rigor Mortis,103815
+10573,Necrotic Bite,103852
 10574,Death Shroud,103298
 10577,Taste of Death,103816
 10583,Spectral Armor,102994
@@ -665,6 +772,8 @@ skill_id,skill_name,file_id
 10672,Well of Darkness,103566
 10673,Well of Power,103825
 10674,Well of Suffering,103570
+10676,Necrotic Bite,103852
+10678,Unholy Feast Something,103567
 10685,Spectral Walk,103846
 10687,Spectral Recall,103847
 10689,Corrosive Poison Cloud,102897
@@ -808,6 +917,7 @@ skill_id,skill_name,file_id
 12515,Lick Wounds,103997
 12516,"""Strength of the Pack!""",103606
 12517,Quick Shot,103998
+12520,Swoop,103311
 12521,Swoop,103311
 12522,Counterattack,104000
 12523,Counterattack Kick,103124
@@ -820,6 +930,7 @@ skill_id,skill_name,file_id
 12533,Viper's Nest,103197
 12535,Frost Trap,103074
 12537,Sharpening Stone,104004
+12538,Signet Of Renewal Heal,103590
 12542,Signet of the Hunt,104005
 12550,Quickening Zephyr,104006
 12552,Man O' War,104007
@@ -834,6 +945,11 @@ skill_id,skill_name,file_id
 12570,Flame Trap,103865
 12573,Hunter's Shot,104012
 12580,Entangle,103101
+12592,Solar Flare,104016
+12593,Cold Snap,104017
+12594,Call Lightning,104018
+12595,Quicksand,104019
+12596,Nature's Renewal,104020
 12597,Solar Flare,62248
 12598,Call Lightning,62248
 12599,Quake,62248
@@ -841,6 +957,7 @@ skill_id,skill_name,file_id
 12601,Nature's Renewal,62248
 12620,Hunter's Call,103076
 12621,Call of the Wild,103310
+12624,Crippling Throw,104022
 12630,Counter Throw,104001
 12631,"""Protect Me!""",104023
 12632,"""Guard!""",104024
@@ -848,25 +965,39 @@ skill_id,skill_name,file_id
 12635,Throw Torch,102988
 12638,Path of Scars,103903
 12639,Whirling Defense,103147
+12655,Slash Feline,103515
 12656,Icy Bite,103516
+12657,Maul Feline,103515
 12658,Mighty Roar,103240
+12659,Peck,103241
+12660,Bite Canine,922413661
+12661,Crippling Leap,103610
+12662,Brutal Charge Canine,103239
+12663,Slash Bear,927318304
 12664,Rending Maul,104027
 12666,Shake It Off,103009
 12667,Icy Roar,103927
+12668,Bite Drake,911374924
 12670,Fire Breath,102890
+12671,Tail Swipe Pet,103596
+12673,Tail Lash Devourer,104029
 12674,Poison Barbs,104030
 12675,Poisonous Cloud,104031
 12676,Twin Darts,103583
+12678,Retreat Devourer,103564
 12679,Rending Barbs,104032
 12680,Rending Pounce,103959
 12681,Stalk,103960
+12682,Slash Bird,950286209
 12685,Enfeebling Roar,103927
+12686,Bite Bear,104037
 12687,Poison Cloud,104038
 12688,Enfeebling Maul,104027
 12689,Icy Maul,104027
 12690,Poisonous Maul,104027
 12691,Purge Conditions,103009
 12693,Icy Pounce,103959
+12694,Bite Feline,103516
 12695,Boil,104039
 12696,Frost Breath,104040
 12697,Frost Nova,103613
@@ -877,6 +1008,8 @@ skill_id,skill_name,file_id
 12702,Poison Cloud,103929
 12703,Regenerate,104044
 12704,Lashtail Venom,103601
+12706,Harmonic Cry,103556
+12707,Frenzied Attack,103007
 12708,Dazing Screech,103238
 12709,Dazing Screech,103238
 12711,Icy Screech,103238
@@ -887,6 +1020,8 @@ skill_id,skill_name,file_id
 12716,Chilling Howl,103607
 12717,Regenerate,103609
 12718,Howl of the Pack,103237
+12719,Swoop Bird,104047
+12720,Quickening Screech,104048
 12721,Chilling Slash,104049
 12722,Brash Slash,104049
 12723,Blinding Slash,104049
@@ -895,6 +1030,10 @@ skill_id,skill_name,file_id
 12730,Weakening Venom,104052
 12731,Deadly Venom,104052
 12732,Forage Sword,104053
+12734,Maul Porcine,104055
+12735,Jab Porcine,959892704
+12738,Brutal Charge Porcine,104054
+12739,Charging Bite Shark,104057
 12744,Stunning Rush,103599
 12748,Chilling Whirl,103600
 12749,Immobilizing Whirl,103600
@@ -929,12 +1068,14 @@ skill_id,skill_name,file_id
 13035,Roll for Initiative,104072
 13037,Spider Venom,103513
 13038,Prepare Shadow Portal,2175068
+13039,Shadow Shot,103209
 13040,Shadow Shot,103209
 13041,Cluster Bomb,104074
 13043,Detonate Cluster,104075
 13044,Blinding Powder,103113
 13046,Assassin's Signet,104076
 13050,Signet of Malice,104077
+13051,Shadow Strike,103552
 13055,Skale Venom,104078
 13056,Prepare Seal Area,2175066
 13057,Prepare Pitfall,2175064
@@ -986,22 +1127,37 @@ skill_id,skill_name,file_id
 13130,Break Stance,104105
 13132,Basilisk Venom,104109
 13138,Venomous Knife,103157
+13139,Despawn,947174998
 13140,Shadow Escape,103748
 13334,Flame Expulsion,1012313
+13339,Lesser Lava Font,103135
 13465,Lesser Elixir B,103402
+13515,Medical Dispersion Field Heal,1012374
 13516,Ally Ward,1012366
 13552,Static Discharge,102964
+13594,Selfless Daring,1012412
+13629,Glacial Heart Heal,1012443
 13677,Lesser Symbol of Resolution,103268
 13684,Lesser Symbol of Protection,103161
 13688,Lesser Shield of Absorption,103026
+13721,Restorative Mantras,1012523
 13733,Lesser Chaos Storm,103156
+13752,Power Block Damage,1012494
+13824,Blood Bank,2310020
 13849,Lesser Well of Blood,103097
+13863,Spiteful Renewal,1012595
 13906,Lesser Spinal Shivers,103808
 13907,Weakening Shroud,1012552
 13918,Lesser Mark of Blood,103813
 13938,Lesser Muddy Terrain,103996
+13980,Windborne Notes,1012635
+14016,Evasive Purity,1012633
+14024,Natural Healing,1012611
 14136,Lesser Caltrops,103073
+14219,Vigorous Shouts,1012829
 14268,Reckless Impact,102788
+14282,Mending Might,2207780
+14336,Shrug It Off Heal,2207779
 14350,Return,103543
 14353,Eviscerate,103230
 14354,Throw Bolas,103015
@@ -1069,6 +1225,7 @@ skill_id,skill_name,file_id
 14427,Skull Crack,103280
 14431,Dual Shot,103082
 14432,Fierce Shot,103254
+14436,Plant Standard,968470274
 14437,Stab,103084
 14438,Jab,103218
 14439,Impale,103219
@@ -1090,6 +1247,7 @@ skill_id,skill_name,file_id
 14473,Kill Shot,103313
 14474,Kill Shot,103313
 14475,Kill Shot,103313
+14477,Inspire,997600063
 14479,Signet of Stamina,104128
 14480,Tsunami Slash,103220
 14481,Split Shot,104129
@@ -1101,6 +1259,8 @@ skill_id,skill_name,file_id
 14488,Kick,104133
 14489,Dash,104134
 14490,Seismic Leap,104135
+14493,Rush (Hit),103196
+14494,Stab,922913578
 14498,Impale,103060
 14501,Rip,104138
 14502,Kick,103001
@@ -1109,6 +1269,7 @@ skill_id,skill_name,file_id
 14505,Smoldering Arrow,102783
 14506,Combustive Shot,103212
 14507,Counterblow,102986
+14508,Counterblow Damage,102986
 14510,Bladetrail,103050
 14511,Backbreaker,103086
 14512,Earthshaker,103181
@@ -1134,6 +1295,7 @@ skill_id,skill_name,file_id
 14554,Hundred Blades,103853
 14556,Throw Boulder,102914
 14557,Adrenaline Rush,103221
+14562,Furious Rally,103087
 14568,"""Shake It Off!""",103797
 14569,Battle Standard,103707
 14570,Banner of Defense,104142
@@ -1141,7 +1303,53 @@ skill_id,skill_name,file_id
 14572,Banner of Strength,104118
 14573,Banner of Tactics,103917
 14575,"""On My Mark!""",103221
+14600,Turn Right Catapult,947349789
+14601,Turn Left Catapult,998880064
+14602,Fire Boulder Skill,951707334
+14605,Boiling Oil,986137231
+14611,Turn Left Mortar,998880064
+14612,Turn Right Mortar,947349789
+14613,Fire Trebuchet Skill,926831006
+14614,Fire Trebuchet Damage,926831006
+14615,Turn Left Trebuchet,998880064
+14616,Turn Right Trebuchet,947349789
+14618,Volley Arrow Cart,945816082
+14622,Ballista Bolt,915760672
+14626,Fire Cannon,950527630
+14627,Punch Siege Golem,907328699
+14628,Deploy Catapult,938596885
+14629,Deploy Trebuchet,938596885
+14631,Deploy Arrow Cart,938596885
+14632,Deploy Ballista,938596885
+14633,Deploy Alpha Siege Golem,938596885
+14639,Whirling Assault Siege Golem,940624538
+14642,Eject Siege Golem,942877345
+14643,Gravel Shot,985777799
+14644,Gravel Shot Skill,985777799
+14648,Boiling Oil,986137231
+14650,Crippling Volley,974852833
+14651,Barbed Volley,974852833
+14655,Reinforced Shot Damage,918704729
+14658,Grapeshot,959518895
+14659,Ice Shot,997907246
+14665,Rotten Cow,942918957
+14672,Pull Siege Golem,981209446
+14676,Ram,926831006
+14678,Deploy Flame Ram,938596885
+14680,Deploy Guild Catapult,938596885
+14681,Deploy Guild Siege Golem,938596885
+14697,Deploy Superior Catapult,938596885
+14699,Deploy Superior Trebuchet,938596885
+14705,Deploy Superior Arrow Cart,938596885
+14706,Deploy Superior Ballista,938596885
+14707,Deploy Omega Siege Golem,938596885
+14708,Rocket Salvo,953279426
+14709,Rocket Punch Siege Golem,990194068
+14710,Whirling Inferno,995149355
+14711,Deploy Superior Flame Ram,938596885
+14713,Rocket Punch Siege Golem,990194068
 15072,Super Elixir,103441
+15266,Hunter's Call (Rune of the Mad King),499379
 15716,Vapor Blade,102818
 15717,Impale,103106
 15718,Dragon's Claw,103211
@@ -1165,11 +1373,15 @@ skill_id,skill_name,file_id
 16427,Sonic Barrier,514416
 16432,Cloak and Dagger,103617
 16435,Shadow Portal,2175067
+16460,Throw Gunk (Ettin Gunk),102940
+16484,Throw Net (Underwater Net),102982
+16711,Gravel Shot,985777799
 16918,Spin,62248
 16919,Punch,62248
 16920,Pound,62248
 16921,Overload,62248
 17008,Magnetic Leap,534761
+17676,Deploy Guild Arrow Cart,938596885
 17810,Drop Mine,103396
 17811,Magnetic Bomb,103091
 17812,Superspeed,103427
@@ -1177,32 +1389,188 @@ skill_id,skill_name,file_id
 17814,Magnetic Aura,103395
 17815,Glue Trail,102816
 18504,Dhuumfire,103260
+18526,Fire Cannon Strips,950527630
+18529,Grapeshot Damage,959518895
+18531,Grapeshot Damage Double Bleeds,959518895
+18533,Grapeshot Damage Double Bleeds,959518895
+18535,Fire Cannon Radius,950527630
+18537,Fire Cannon Strips,950527630
+18539,Ice Shot Damage,997907246
+18541,Ice Shot Radius Damage,997907246
+18543,Ice Shot,997907246
+18564,Improved Reinforced Shot Damage,918704729
+18568,Improved Shattering Bolt Damage,916981579
+18570,Swift Bolt Damage,915760672
+18574,Sniper Bolt Damage,915760672
+18576,Greater Reinforced Shot Damage,918704729
+18578,Greater Shattering Bolt Damage,916981579
+18585,Deploy Guild Trebuchet,938596885
+18586,Deploy Guild Ballista,938596885
+18595,Deploy Trap Wv W,938596885
+18846,Fire Penetrating Sniper Arrows,906056451
+18848,Fire Reaping Arrow,974852833
+18850,Fire Distant Volley,945816082
+18853,Fire Improved Arrows,945816082
+18855,Fire Improved Crippling Arrows,974852833
+18857,Fire Improved Barbed Arrows,906056451
+18860,Fire Exsanguinating Arrows,906056451
+18862,Fire Staggering Arrows,974852833
+18865,Fire Suffering Arrows,974852833
+18867,Fire Devastating Arrows,945816082
+18869,Fire Merciless Arrows,906056451
+18872,Toxic Unveiling Volley,930255708
+18875,Improved Burning Oil,986137231
+18881,Improved Poured Tar,920647423
+18883,Improved Burning Oil,986137231
+18885,Improved Poured Tar,920647423
+18887,Engulfing Burning Oil,986137231
 19115,Reaper's Mark,103821
 19116,Putrid Mark,103814
 19117,Mark of Blood,103813
+19152,Smash (Bottle),987387774
+19153,Throw (Bottle),986891195
+19501,Tainted Shackles Ticks,598947
 19504,Tainted Shackles,598947
+19579,Fire Boulder,951707334
+19593,Fire Impact Shells,921479880
+19601,Fire Explosive Shells Skill,921479880
+19602,Fire Explosive Shells Damage,921479880
+19604,Fire Packed Incendiary Shells,971346780
+19610,Fire Lightweight Shells,921479880
+19612,Fire Lightweight Incendiary Shells,971346780
+19621,Fire Impact Shells,921479880
+19626,Concussion Barrage Damage,971346780
+19627,Concussion Barrage Skill,971346780
+20242,Heavy Boulder Shot,951707334
+20243,Gravel Shot,985777799
+20250,Rending Gravel Skill,985777799
+20254,Heavy Boulder Shot,951707334
+20259,Fire Large Rending Gravel Skill,985777799
+20260,Fire Large Heavy Boulder Skill,951707334
+20268,Fire Hollowed Gravel Skill,985777799
+20269,Fire Hollowed Boulder Skill,951707334
+20272,Hollowed Boulder Shot,951707334
+20273,Hollowed Gravel Shot,985777799
+20277,Fire Heavy Boulder,951707334
+20280,Fire Large Heavy Boulder,951707334
+20284,Fire Hollowed Gravel,985777799
+20285,Fire Hollowed Boulder,951707334
+20290,Fire Heavy Boulder,951707334
 20451,Elixir X,103408
+20461,Wave of Healing (Major Sigil of Renewal),619705
+20462,Wave of Healing (Superior Sigil of Renewal),619706
+20479,Rune Of Tormenting,619715
+20851,Portal Exit,619596
+20857,Rabbit Rank Finisher,620101
+20858,Deer Rank Finisher,620104
+20859,Dolyak Rank Finisher,620107
+20860,Wolf Rank Finisher,620110
+20861,Bear Rank Finisher,620113
+20862,Tiger Rank Finisher,620116
+20863,Shark Rank Finisher,620119
+20864,Phoenix Rank Finisher,620122
+20865,Dragon Rank Finisher,620125
+20866,Cow Finisher,620128
+20867,Whump The Giant Finisher,620134
+20868,Spectre Finisher,620137
+20869,Thornroot Finisher,620143
+20870,Sanctified Finisher,620140
+20871,Martial Finisher,620146
+20872,Grave Finisher,620149
+20873,Super Explosive Finisher,620131
+20874,Mad King Finisher,620152
+20875,Scarecrow Finisher,620155
+20876,Gift Finisher,620158
+20877,Snowman Finisher,620161
+20974,Twisted Watchwork Finisher,626130
 20975,Lacerating Slash,104049
+20978,Fire Rotting Cow,942918957
+20979,Fire Mega Explosive Shot,926831006
+20983,Fire Mega Explosive Shot,926831006
+20986,Fire Bloated Putrid Cow,942918957
+20987,Fire Colossal Explosive Shot,926831006
+20990,Fire Healing Oasis Healing,951966163
+20992,Fire Corrosive Shot,926831006
+20995,Fire Healing Oasis Skill,951966163
+21001,Fire Healing Oasis,951966163
+21005,Fire Mega Explosive Shot,926831006
+21006,Fire Rotting Cow,942918957
+21009,Fire Trebuchet Damage,926831006
+21010,Rotten Cow,942918957
+21016,Fire Putrid Cow,942918957
+21019,Fire Trebuchet Damage,926831006
+21020,Rotten Cow,942918957
+21029,Rotten Cow,942918957
+21034,Fire Corrosive Shot,926831006
+21037,Fire Trebuchet Damage,926831006
+21038,Rotten Cow,942918957
+21460,Vigil Megalaser Finisher,638726
+21471,Weakening Flame Blast,103183
+21474,Accelerated Ram,926831006
+21475,Intense Flame Blast,103183
+21479,Impact Slam,911952827
+21636,Electric Discharge,1012280
 21646,Shield Smash,867449
 21647,Stone Sheath,867450
 21656,Arcane Brilliance,699524
 21659,A.E.D.,699525
 21661,Static Shock,699526
 21664,Litany of Wrath,699527
+21731,Corpse Toss,995149684
 21750,Signet of the Ether,699528
 21762,Signet of Vampirism,699529
+21765,Signet Of Vampirism Heal,699529
 21773,Water Spirit,699530
+21775,Aqua Surge,699531
 21776,Aqua Surge,62248
 21778,Skelk Venom,699532
+21795,Glacial Heart,1012443
 21813,Lesser Endure Pain,102867
 21815,Defiant Stance,699533
+22015,Toxic Offshoot Finisher,666086
+22097,Ascalonian Leader Finisher,712967
+22098,Cute Quaggan Finisher,712968
+22099,Skritt Scavenger Finisher,712969
+22137,Net Turret Damage UW,103110
 22221,Mistlock Instability: Earthquake,681255
+22477,Whirling Defenses Illusionary Warden,103147
+22489,Wv W Golden Dolyak Finisher,681252
+22490,Wv W Silver Dolyak Finisher,681253
+22492,Basilisk Venom (Stun),104109
 22499,Mystic Rebuke,104852
+22520,Lesser Cleansing Fire,103336
 22521,Lesser Cleansing Fire,103336
+22555,Snow Globe Finisher,699523
 22572,Arcane Wave,103372
 22573,Rocket,103935
 22574,Rocket Turret,103431
+22877,Snowman Finisher,620161
+22890,Great Jungle Wurm Finisher,712966
+23275,Dodge,980433278
+23290,Generic Evade,933794099
+23292,Generic Absorb,975924717
+23293,Generic Miss,102837
+23294,Generic Knockdown,2440716
+23295,Generic Knockdown or Pull,2440715
+23296,Generic Float,2440713
+23297,Generic Launch,2440712
+23298,Generic Float or Sink (Water),2440713
+23304,Generic Float (Water),2440713
+23305,Generic Sink,2440714
+23307,Generic Fear,102869
+23978,Guild Shield Finisher,757646
+23996,Hidden Minstrel Finisher,771621
+23997,Golem Pummeler Finisher,771620
+23999,Siege Bubble,910310526
+24060,Healing Ripple,1012328
+24061,Healing Ripple Wv W,1012328
+24241,Wave of Healing (Superior Sigil of Water),220684
+24242,Wave of Healing (Minor Sigil of Water),220974
+24244,Wave of Healing (Major Sigil of Water),220975
 24287,Dhuumfire,103260
+24290,Mystical Dragon Finisher,780904
+24291,Llama Finisher,780905
+24299,Flow Like Water (Healing),2175046
 24305,Lightning Rod,104675
 24329,Bunker Down,104786
 24356,Poison Nova,102897
@@ -1212,7 +1580,11 @@ skill_id,skill_name,file_id
 24411,Renewal of Earth,103354
 24414,Signet of Mercy,103667
 24544,Signet of Undeath,103826
+24600,Wizard Lightning Finisher,824949
 24755,Thousand Cuts,2479389
+25173,Ley Line Finisher,841726
+25435,Guild Flag Finisher,904970
+25436,Avatar Of Death Finisher,867424
 25480,Shocking Bolt,867434
 25486,Glyph of Lesser Elementals,867435
 25487,Glyph of Lesser Elementals,867436
@@ -1228,22 +1600,36 @@ skill_id,skill_name,file_id
 25513,Phantasmal Blade,2175058
 25541,Illusion of Life,103754
 25579,Lesser Arcane Shield,65735
+25591,Healing Shield Bubble,951924532
+25595,Ejection Seat,942877345
+26078,Chickenado Finisher,915683
+26079,Chinese World Tournament Finisher,915684
+26080,North American World Tournament Finisher,915682
+26081,European World Tournament Finisher,915681
+26261,Snowball (Minor/Major/Superior Sigil of Mischief),924725
+26519,Pact Fleet Finisher,931417
 26557,Vengeful Hammers,961436
+26558,Energy Expulsion Heal,1012984
 26644,Facet of Strength,1013013
 26666,Manifest Toxin,961459
 26679,Forced Engagement,961439
 26693,Resist the Darkness,961440
 26699,Unrelenting Assault,1013004
 26730,Anguish Swipe,961460
+26738,Purifying Essence Heal,1013018
 26821,Protective Solace,1013017
+26923,Frigid Blitz Extra,961462
 26937,Enchanted Daggers,1012989
 26956,Release Hammers,961441
+26997,Natural Harmony Heal,1013015
 27014,Facet of Elements,1013012
 27025,Natural Harmony,1013015
+27028,Elevated Compassion,2029284
 27063,Forceful Displacement,961411
 27066,Misery Swipe,961465
 27074,Deathstrike,1876877
 27080,Gaze of Darkness,1013009
+27101,Project Tranquility Heal,1012988
 27107,Impossible Odds,1013014
 27162,Elemental Blast,1013010
 27198,Dome of the Mists,961482
@@ -1253,6 +1639,7 @@ skill_id,skill_name,file_id
 27322,Pain Absorption,961447
 27356,Energy Expulsion,1012984
 27372,Soothing Stone,961448
+27425,Manifest Toxin Chain,961459
 27505,Banish Enchantment,961449
 27510,Slash,62248
 27628,Diminish Solace,1013007
@@ -1260,10 +1647,12 @@ skill_id,skill_name,file_id
 27715,Purifying Essence,1013018
 27760,Facet of Chaos,1012986
 27792,Vengeful Blast,961412
+27803,Echoing Eruption Extra,961470
 27917,Call to Anguish,961452
 27964,Echoing Eruption,961470
 27975,Rite of the Great Dwarf,961437
 27976,Phase Smash,961473
+28009,Rapid Flow Healing,1012684
 28029,Frigid Blitz,961462
 28075,Chaotic Release,1012985
 28085,Legendary Dragon Stance,1058605
@@ -1274,12 +1663,15 @@ skill_id,skill_name,file_id
 28195,Legendary Centaur Stance,1024105
 28219,Empowering Misery,961456
 28231,Phase Traversal,1013016
+28232,Unrelenting Assault (Multi Hit),1013004
 28253,Coalescence of Ruin,961476
 28262,Crystal Hibernation,1058609
 28287,Embrace the Darkness,961453
+28313,Enchanted Daggers,1012989
 28357,Searing Fissure,961477
 28379,Facet of Darkness,1013011
 28382,Relinquish Power,1030007
+28388,Lesser Banish Enchantment,961449
 28405,Maul,62248
 28406,Jade Winds,1012987
 28409,Temporal Rift,961478
@@ -1291,25 +1683,32 @@ skill_id,skill_name,file_id
 28549,Hammer Bolt,961480
 28571,Duelist's Preparation,1013005
 28625,Deathstrike,1876877
+28664,Phase Traversal,1013016
 28692,Igniting Brand,1058615
 28714,Spear of Anguish,1058610
 28797,Frigid Discharge,1058612
 28815,Devour Brand,1058614
 28827,Venomous Sphere,1058613
+28873,Rainbow Unicorn Finisher,978118
 28915,Rapid Assault,1058611
 28930,Rift Containment,1058616
 28964,Rift Slash,1013002
 28978,Surge of the Mists,1012999
 29002,Rejuvenating Assault,1012995
+29044,Honor Guard Finisher,1001362
 29057,Preparation Thrust,1013000
+29073,Rift Slash (Rift Hit),1013002
 29082,Natural Harmony,1013015
 29114,Energy Expulsion,1012984
 29145,Mender's Rebuke,1012996
 29148,Project Tranquility,1012988
+29168,Healers Gift,2128017
 29180,Rapid Swipe,1012993
 29197,Purifying Essence,1013018
 29209,Riposting Shadows,1013019
+29210,Words Of Censure,2128016
 29233,Chilling Isolation,1013003
+29236,Generous Abundance (Centaur),2128013
 29248,Tail Stab,62248
 29256,Brutal Blade,1013001
 29288,Warding Rift,1012997
@@ -1317,8 +1716,10 @@ skill_id,skill_name,file_id
 29321,Renewing Wave,1012998
 29331,Forceful Bash,1012994
 29371,Facet of Nature,1058606
+29373,Healing Orb Revenant,1012995
 29386,Envoy of Exuberance,1058608
 29393,True Nature,1058607
+29409,Revenant Finisher,1012840
 29414,"""You Are All Weaklings!""",1012951
 29415,Overload Water,1029986
 29442,Life Rend,1012933
@@ -1326,6 +1727,7 @@ skill_id,skill_name,file_id
 29453,Sand Squall,1029996
 29458,Life Slash,1012931
 29473,Detonate,102902
+29499,Chain Reactivity Barrier,1012338
 29505,Reconstruction Field,1058595
 29515,Toss Elixir X,1012894
 29516,Impact Strike,1058619
@@ -1342,10 +1744,12 @@ skill_id,skill_name,file_id
 29560,Spiteful Spirit,103567
 29578,Mimic,103604
 29591,Utility Goggles,103417
+29599,Virtue Of Justice Passive Burn,103034
 29604,Chilling Nova,1012917
 29606,Invisible Analysis,103460
 29613,Sundering Leap,1058651
 29618,Overload Earth,1029988
+29621,Impairing Daggers (Dagger Hit 1),1058635
 29630,Deflecting Shot,1012871
 29639,Finishing Blow,1058618
 29644,Gun Flame,1058645
@@ -1366,16 +1770,20 @@ skill_id,skill_name,file_id
 29785,Negative Bash,1128585
 29786,Test of Faith,1012876
 29789,Symbol of Energy,1012872
+29799,Lesser Signet Of Vampirism,699529
 29812,Lesser Utility Goggles,103417
 29830,Continuum Split,1012882
 29840,Shock Shield,1058591
+29844,Flash Freeze Delayed,1029993
 29845,Blaze Breaker,1058648
 29852,Arc Divider,1058639
 29855,Nightfall,1012926
 29856,Well of Senility,1012905
+29863,Live Vicariously,1128540
 29867,Chilling Scythe,1012923
 29887,Spear of Justice,1012863
 29889,Aim-Assisted Rocket,103936
+29901,Life From Death,1012537
 29902,Drop Gunk,102940
 29905,Stow Mortar Kit,60975
 29911,Weakening Whirl,1058625
@@ -1389,7 +1797,9 @@ skill_id,skill_name,file_id
 29968,"""Rebound!""",1029984
 29977,Lesser Signet of Might,103798
 29991,Personal Battering Ram,103398
+29997,Healing Prism,1012533
 30008,Cyclone,1029994
+30017,Impairing Daggers (Dagger Hit 3),1058635
 30025,Purification,1012868
 30027,Defense Field,1058598
 30029,Shield of Courage,1012865
@@ -1402,20 +1812,25 @@ skill_id,skill_name,file_id
 30088,Electro-whirl,1058590
 30101,Bulwark Gyro,1128594
 30105,"""Chilled to the Bone!""",1012912
+30117,Hunters Ward Impacts,1012873
 30121,Flash Shell,1012855
 30123,"""Search and Rescue!""",104014
 30135,Staff Bash,1058621
 30142,Bandage,240697
 30163,Gravedigger,1012924
 30166,Lesser Power Cleanse,103741
+30176,Shredder Gyro Hit,1128595
 30185,Berserk,1058638
 30189,Blood Reckoning,1058642
 30210,Hook Strike,1058623
 30225,Wings of Resolve,1012864
 30229,True Shot,1012870
 30230,Overcharge Supply Crate,103483
+30235,Med Blaster (Heal),1012852
 30238,Glyph of the Tides,1128638
 30239,Lesser Haste,103459
+30245,Verdant Etching Heal,1128534
+30246,Debilitating Arc (Roll backwards),1058626
 30255,Lesser Signet of Wrath,103643
 30258,Outrage,1058652
 30262,Flashbang,1128590
@@ -1426,6 +1841,7 @@ skill_id,skill_name,file_id
 30286,Wings of Resolve,1012864
 30305,Well of Eternity,1012884
 30307,Endothermic Shell,103477
+30316,Persistence Of Memory,1012511
 30336,Dust Storm,1029997
 30337,Throw Mine,103177
 30343,Head Butt,1058637
@@ -1434,6 +1850,7 @@ skill_id,skill_name,file_id
 30364,Procession of Blades,1012878
 30369,Impairing Daggers,1058635
 30371,Mortar Shot,103475
+30381,Impairing Daggers (Dagger Hit 2),1058635
 30400,Channeled Vigor,1058620
 30432,"""Aftershock!""",1029991
 30434,Punishing Strikes,1058622
@@ -1450,10 +1867,14 @@ skill_id,skill_name,file_id
 30520,Debilitating Arc,1058626
 30521,Med Blaster,1012852
 30525,Well of Calamity,1012903
+30539,Soul Eater,1012573
 30553,Fragments of Faith,1012877
 30557,Executioner's Scythe,1012938
+30564,Soothing Detonation,1012370
 30568,Distracting Daggers,1058630
+30581,Rapid Regeneration,2983334
 30588,Med Pack Drop,1012858
+30591,Soul Spiral Heal,1012937
 30597,Vault,1058627
 30599,Orbital Strike,1012854
 30614,Staff Strike,1058624
@@ -1472,7 +1893,9 @@ skill_id,skill_name,file_id
 30770,Pulmonary Impact,1058634
 30772,"""Rise!""",1012949
 30775,Dust Strike,1058628
+30782,Signet Of The Locus Something,58463
 30783,Wings of Resolve,1012864
+30784,Invigorating Bond,1012638
 30792,Reaper's Shroud,1012930
 30795,Lightning Orb,1029995
 30799,Fading Twilight,1012922
@@ -1493,22 +1916,31 @@ skill_id,skill_name,file_id
 30961,Exit Reaper's Shroud,1024104
 30989,Burning Shackles,1058641
 31048,Wild Whirl,1058646
+31079,Birthday Finisher,1053431
 31100,Call to Anguish,961452
+31101,Finisher,622025
 31129,Bound,1058554
 31159,Purging Flames,103675
 31167,Spare Capacitor,1128591
 31187,Dash,991941
 31248,Blast Gyro,1128592
 31267,Impaling Lotus,1058553
+31269,Shambling Slash,943076707
+31289,King Of Fires,1058558
 31294,Jade Winds,1012987
 31295,Sanctuary,103541
+31312,Bite Smokescale,1128610
 31318,Lunar Impact,1128625
+31321,Wing Buffet Wyvern,1128618
 31322,Glyph of Alignment,1128635
 31324,Time Bomb,62248
 31340,Distributed Magic,62248
 31344,Ghastly Rampage,62248
+31345,Impaling Lotus Damage,1058552
 31348,Glyph of Alignment,1128630
+31354,Augury Of Death,1012570
 31367,Spike Barrage,1128608
+31371,Solar Beam,1128621
 31375,Magic Aura,62248
 31390,Heat,62248
 31391,Distributed Magic,62248
@@ -1521,33 +1953,47 @@ skill_id,skill_name,file_id
 31410,Ghastly Rampage,62248
 31411,Release Celestial Avatar,1128602
 31419,Magic Storm,62248
+31430,Takedown Smokescale,1128611
+31435,Kick Heavy Bomb,103001
+31436,Black Hole Minion,936191315
 31438,Essence Sap,961414
 31442,Punch,62248
 31451,Furious Pounce,1128614
 31459,Consuming Flame,1128615
 31462,Magic Aura,62248
 31483,Haunting Aura,62248
+31488,Sapper Bomb Skill,996500714
 31491,Quick Shot,62248
 31496,Sublime Conversion,1128627
 31503,Natural Convergence,1128629
+31520,Wing Swipe Wyvern,976486416
 31529,Distributed Magic,62248
 31535,Ancestral Grace,1128624
+31536,Astral Wisp Attachment,1128622
 31539,Unstable Pylon,1128560
 31544,Flak Shot,62248
 31557,Magic Aura,62248
 31565,Ghastly Rampage,62248
 31568,Smoke Cloud,1128613
 31582,Glyph of Burgeoning,1128639
+31600,Bound (Hit),1058554
+31602,Glyph Of Empowerment Skill CA,1128631
 31607,Glyph of Alignment,1128635
+31613,Tail Lash Wyvern,1128617
 31622,Ghastly Rampage,62248
 31623,Ghastly Prison,1302719
 31624,You Will Join Us,62248
+31629,Cultivated Synergy Pet,1128531
 31636,Punch,62248
 31639,Lightning Assault,1128616
+31640,Glyph Of Unity Something,1128639
 31643,Cannon Barrage,62248
+31657,Glyph of Unity (CA),1128634
 31658,Glyph of Equality,1128637
 31677,Glyph of the Stars,1128636
+31686,Lightning Jolt,1029987
 31700,Vine Surge,1128628
+31707,Cultivated Synergy Player,1128531
 31710,Solar Beam,1128621
 31720,Kick,62248
 31721,Hail of Bullets,62248
@@ -1556,6 +2002,7 @@ skill_id,skill_name,file_id
 31740,Glyph of Burgeoning,1128634
 31746,Glyph of Equality,1128637
 31747,Ghastly Rampage,62248
+31749,Blood Moon (Daze),1128532
 31750,Distributed Magic,62248
 31760,Linked Ignition,62248
 31761,Flame Blast,62248
@@ -1566,11 +2013,15 @@ skill_id,skill_name,file_id
 31792,Ectoplasm,62248
 31793,Bullet Storm,62248
 31796,Cosmic Ray,1128620
+31804,Glyph Of Empowerment Skill,1128636
 31819,Glyph of Rejuvenation,1128605
 31820,Heat,62248
 31828,Unstable Pylon,1128564
+31847,Gyro Explosion,2175057
+31854,Smoke Assault Smokescale Skill,1128612
 31860,Unstable Magic Spike,62248
 31861,Spirit Fury,62248
+31864,Echo Of Memory Extra,1012889
 31867,Glyph of Rejuvenation,1128604
 31869,Celestial Avatar,1128603
 31875,Spectral Impact,62248
@@ -1581,19 +2032,65 @@ skill_id,skill_name,file_id
 31889,Astral Wisp,1128622
 31894,Rejuvenating Tides,1128626
 31914,"""We Heal As One!""",103175
+31932,Kick Dust Centaur Banner Skill,963873524
+31968,Dragon Blast,914813150
+31975,Dragon Talon,973108123
+31976,Gatling Fists,943676293
+32009,Bombshell,905898493
+32108,Mordrem Tiger Finisher,1228733
+32114,Force Ball Damage,933086298
+32151,Outrun A Centaur,977375149
 32242,Seed of Life,1128623
 32253,Rejuvenating Tides,1128626
+32352,Force Ball Damage,933086298
 32364,Lunar Impact,1128625
+32410,Hunter's Verdict (Pull),103703
+32433,Mordrem Wolf Finisher,1228734
+32443,Deploy Shield Generator,938596885
+32454,Saved By The Shell,936636292
+32502,Centaur Dash,968700777
+32536,Dragon Talon,973108123
+32539,Rending Thrash Centaur Banner Skill,953202693
+32584,Mordrem Rabbit Finisher,1228731
 32588,Rite of the Great Dwarf,961437
+32624,Mordrem Dragon Finisher,1228729
+32813,Mordrem Deer Finisher,1228727
+32836,Shell Wall,986963391
+32869,Mordrem Phoenix Finisher,1228730
+32923,Spirit Centaur,917297275
+32951,Force Wall,959649773
+32970,Deploy Guild Shield Generator,938596885
+32976,Deploy Guild Flame Ram,938596885
+32980,Dragons Breath,954305585
+32999,Mordrem Dolyak Finisher,1228728
+33022,Superior Sigil Of Draining,1201533
+33053,Mordrem Shark Finisher,1228732
 33134,Hunter's Verdict,103703
+33142,Coalescence Of Ruin Extra,961476
+33215,Gatling Fists,943676293
+33232,Dragons Might,934508524
+33336,Dragon Talon,973108123
+33361,Shell Shock,911870802
 33387,Cosmic Ray,1128620
+33483,Force Wall,959649773
+33554,Force Ball Damage,933086298
+33694,Shellter,911102737
+33714,Stampede Of Arrows,906901265
+33751,Deploy Superior Shield Generator,938596885
+33789,Mordrem Bear Finisher,1228726
+33823,Spike Barricade,978068018
+33963,Dragons Wings,930989264
+34022,Force Ball Damage,933086298
+34037,Crippling Strike Centaur Banner Skill,939429264
 34070,Natural Convergence,1128629
+34090,Smoke Assault Smokescale Damage,1128612
 34112,Platform Crush,62248
 34152,Time Bomb,62248
 34174,Platform Crush,62248
 34296,Brutal Shot,103248
 34309,"""Search and Rescue!""",104014
 34326,Feedback,103773
+34331,Embrace the Darkness (Hit),961453
 34335,Sweep,62248
 34336,Well of the Profane,62248
 34343,Swing,62248
@@ -1635,9 +2132,11 @@ skill_id,skill_name,file_id
 34488,Poison Spatter,62248
 34503,Crippling Thump,62248
 34505,Volatile Aura,62248
+34513,Toss,831481
 34516,Halitosis,62248
 34526,Heat Wave,1377819
 34528,Zealous Benediction,62248
+34533,Beehive,103485
 34537,Toxic Cloud,62248
 34543,Thunder,62248
 34554,Downpour,62248
@@ -1672,12 +2171,15 @@ skill_id,skill_name,file_id
 35139,Tormenting Dredge,62248
 35142,Backhand,62248
 35154,Face Smash,62248
+35155,Portal Entrance,619596
 35164,Illusionary Shot,62248
 35167,Overhead Smash,62248
 35224,Elemental Requiem,1466361
 35304,Dust Charge,1466362
 35637,Sword of Decimation,2479388
+35779,Unstable Magic Volley,1466360
 35822,Rock Throw,62248
+35833,Focused Magic,929617576
 36281,Summon Crablings,62248
 36488,Slash,62248
 36995,Flurry,62248
@@ -1707,7 +2209,9 @@ skill_id,skill_name,file_id
 37881,Demonic Projection,62248
 37892,Soul Swarm,1635209
 37901,Effigy Pulse,103975
+37904,Dispel,926504869
 37910,Gravity Wave,156621
+37924,Celestial Dash,909122207
 37927,Spear Impact,103130
 37929,Annihilate,62248
 37940,Anguished Wail,103768
@@ -1719,6 +2223,7 @@ skill_id,skill_name,file_id
 37996,Shockwave,102820
 38006,Corporal Punishment,62248
 38013,Brutalize,648496
+38022,Protect,981637095
 38040,Prison Shank,1635229
 38046,Demonic Shock Wave,62248
 38055,Regret,62248
@@ -1735,6 +2240,7 @@ skill_id,skill_name,file_id
 38208,Annihilate,62248
 38210,Shared Agony,563500
 38231,Impaling Stab,102820
+38234,Claim,973500100
 38236,Inevitable Betrayal,103130
 38258,Brutal Aura,62248
 38260,Inevitable Betrayal,103130
@@ -1746,10 +2252,15 @@ skill_id,skill_name,file_id
 38305,Bludgeon,648496
 38313,Meteor Swarm,156636
 38314,Anguished Bolt,1424242
+38323,Phantasmal Mage Attack,103730
+38331,Phantasmal Duelist Attack,103724
 38451,Judgment of War,102762
 38748,Detonate Rocket Turret,103447
+38749,Maniacal Pulse,1012670
 38750,Detonate Supply Crate Turrets,103447
 38767,Unholy Burst,103567
+38769,Phantasmal Swordsman,103723
+38785,Phantasmal Berserker (Greatsword Projectile Hit),103747
 38844,Overhead Smash,62248
 38846,Mist-Charged Chop,62248
 38847,Crimson Dawn,62248
@@ -1813,6 +2324,7 @@ skill_id,skill_name,file_id
 39139,Focused Anger,62248
 39146,Crimson Dawn,62248
 39152,Crimson Dawn,62248
+39157,Hypernova Launch,909122207
 39160,Taw Shot,62248
 39163,Curved Shot,62248
 39171,Taw Shot,62248
@@ -1966,6 +2478,7 @@ skill_id,skill_name,file_id
 39829,Crimson Dawn,62248
 39830,Diffractive Edge,62248
 39839,Horizon Strike,62248
+39843,Nova Launch,909122207
 39845,Radiant Fury,62248
 39847,Pulsar Blast,62248
 39848,Solar Bolt,62248
@@ -1995,6 +2508,10 @@ skill_id,skill_name,file_id
 39972,Silencer,1770648
 39977,Awakened Soldier Swing,961477
 39981,Sodden Swath,1770381
+40005,Weakening Charge Daredevil Minion,1058625
+40015,Chapter4 Scorched Aftermath,948982048
+40070,Antiair Ballista Bolt Damage,923810117
+40071,Garish Pillar Hit,1770536
 40078,Fire Bolt,62248
 40084,Crushing Blow,103682
 40111,Narcotic Spores,1770581
@@ -2011,12 +2528,17 @@ skill_id,skill_name,file_id
 40255,Smoke Assault,1128612
 40274,Trail of Anguish,1770544
 40275,Keen Strike,1770654
+40277,Griffon Swoop Damage,918966845
 40301,Leading Swipe,1770554
+40306,Deaths Judgment Deadeye Minion,3098876
 40326,Fire Swipe,1770362
 40332,Pressure Blast,1770353
+40354,Realm Portal Spike Finisher,1770253
 40378,Hydrothermal Vent,1770385
 40436,Death's Advance,2779165
+40482,Impairing Daggers (Dagger Hit 1),1058635
 40485,Icerazor's Ire,1770605
+40487,Call Lightning Jacaranda,1770576
 40497,Shattershot,1770596
 40498,Vulture Stance,1770571
 40507,Coolant Blast,1770388
@@ -2025,27 +2547,38 @@ skill_id,skill_name,file_id
 40588,Primal Cry,1770564
 40600,Kneel,1770631
 40601,Earthshaker,103181
+40614,Phantasmal Spinning Axe,1769956
 40624,Symbol of Vengeance,1770458
 40625,Bite,103516
+40635,Chapter2 Igniting Burst,984508260
 40643,Intimidating Shout,103068
+40679,Chapter2 Radiant Recovery,973682702
 40709,Earthen Vortex,1770368
 40710,Deadly Aim,1770621
 40729,Worldly Impact,1770572
+40774,Sand Flare (Shared Barrier),1770534
+40787,Chapter1 Desert Bloom Skill,947003166
 40791,Giant Flurry,62248
 40794,Earthen Synergy,1770343
 40813,Nefarious Favor,1770537
 40857,Deadly Kick,103045
+40860,Unstable Slash Minion,920513688
 40888,Steal Precision,1770615
 40903,Steal Health,1770619
 40904,Steal Strength,1770617
 40915,Mantra of Potence,1770490
+40916,Icerazors Ire Skill Minion,1770605
 40963,Grinding Stones,1770334
+40988,Chapter4 Stalwart Stand,955136147
 41001,Elemental Compression,1770382
 41052,Seiche,1770364
+41056,Vault Daredevil Minion,1058627
 41065,Crystal Sands,1770514
 41068,Free Action,1770630
+41095,Darkrazor's Daring (Hit),1770604
 41100,Natural Healing,1770660
 41110,Skull Crack,103280
+41115,Razorclaws Rage Skill Minion,1770606
 41119,Reverberant Shatter,62248
 41123,Deactivate Photon Forge,1770389
 41125,Plasma Blast,1770351
@@ -2058,9 +2591,15 @@ skill_id,skill_name,file_id
 41206,Rain of Spikes,1128606
 41218,Spectrum Shield,1770414
 41220,Darkrazor's Daring,1770604
+41228,Infiltrators Strike Something,104067
+41234,Impairing Daggers Daredevil Minion Skill,1058635
+41243,Full Counter Hit,1770662
 41247,Giant Stomp,62248
+41258,Chapter1 Searing Spell,941370134
 41283,Boon Crusher,1770648
+41284,Masters Fortitude Barrier,1128534
 41294,Citadel Bombardment,1770593
+41324,Phantasmal Seeking Axe,1769956
 41328,Unhindered Delivery,1770462
 41330,Forceful Shot,103788
 41372,Mercy,1770635
@@ -2073,12 +2612,15 @@ skill_id,skill_name,file_id
 41513,Citadel Bombardment,1770593
 41524,Kick,1770575
 41537,Chomp,103595
+41540,Antiair Ballista Bolt Damage,923810117
 41543,Wounding Strike,1770648
 41571,Shield of the Avenger,103673
 41575,Tail Swipe,103596
 41612,Orbital Command Strike,1012854
 41615,Serpent Siphon,1770545
 41684,Flash Cutter—Storm,1770400
+41698,Jackal Pounce Damage,950885273
+41710,Photosynthesize Jacaranda,1770577
 41712,Plasmic Strike,1770383
 41714,Mantra of Solace,1770463
 41721,Screech,103238
@@ -2087,18 +2629,28 @@ skill_id,skill_name,file_id
 41800,Serpent Stab,1770555
 41820,Scorchrazor,1770600
 41829,Sevenshot,1770598
+41836,Chapter3 Valiant Bulwark,993816126
 41837,Dark Water,103531
 41843,Prismatic Singularity,1770397
 41858,Legendary Renegade Stance,1770592
 41860,Slash,102762
+41864,Crippling Anguish,1770580
 41887,Peck,103241
+41896,Swoop Bird Owl,104047
+41897,Salute,948382449
 41908,Wing Buffet,1128618
 41919,Imminent Threat,1770665
 41937,Death's Retreat,1770629
+41968,Chapter2 Daring Challenge,921248106
 41988,Overwhelming Celerity,1770492
+41993,Springer Cannonball Damage,972962718
+42008,Chapter4 Shining River,967160051
 42009,Prime Light Beam,1770387
 42041,Kill Shot,103313
 42042,Quickening Screech,104048
+42133,Raptor Tail Spin,966409044
+42145,One Wolf Pack (Hit),1770558
+42148,Jackal Pounce Barrier,950885273
 42163,Blade Burst,1770393
 42180,Blinding Roar,1770552
 42181,Fiery Frost,1770347
@@ -2110,15 +2662,18 @@ skill_id,skill_name,file_id
 42304,Ether Barrage,1770508
 42321,Pile Driver,1770349
 42330,Steam Surge,1770339
+42334,Antiair Ballista Bolt Damage,923810117
 42355,Ghastly Breach,1770533
 42360,Echo of Truth,1770494
 42371,Tome of Courage,1770466
 42379,Ashen Blast,1770338
+42449,Chapter3 Heated Rebuke,988970228
 42470,Lesser Signet of Stone,102886
 42475,Bright Slash—Storm,1770399
 42521,Holographic Shockwave,1770404
 42575,Battering Slash,62248
 42577,Lunge,102762
+42614,Soulcleaves Summit Skill Minion,1770589
 42707,Arcing Slice,103017
 42717,Protection,103555
 42745,Precise Cut,1770652
@@ -2133,19 +2688,23 @@ skill_id,skill_name,file_id
 42864,Opening Passage,1770488
 42867,Shearing Edge,1770380
 42894,Brutal Charge,103239
+42898,Epilogue Ashes Of The Just,912920556
 42907,Takedown,1128611
 42913,Lesser Stone Resonance,1770329
 42917,Sand Swell,1770543
 42924,Flame Surge,1770486
+42925,Epilogue Eternal Oasis,985504489
 42935,Desiccate,1770542
 42938,Engage Photon Forge,1770391
 42944,Beastmode,1770050
 42949,Razorclaw's Rage,1770606
 42954,Fracturing Strike,1770346
+42955,Smoke Assault (Multi Hit),1128612
 42960,Rejuvenating Respite,1770465
 42963,Savannah Strike,1770565
 42965,Holo Leap,1770401
 42983,Potent Haste,1770491
+42986,Chapter1 Unflinching Charge,985175394
 43014,Leave Beastmode,1770051
 43060,Defy Pain,103951
 43064,Sand through Glass,1770518
@@ -2155,9 +2714,11 @@ skill_id,skill_name,file_id
 43123,Break Enchantments,1770663
 43136,Bite,104037
 43148,Sand Flare,1770534
+43163,Impairing Daggers (Dagger Hit 2),1058635
 43176,Flash Spark,1770395
 43186,Healing Cloud,103530
 43199,Breaking Wave,1770366
+43260,Desert Empowerment,1769970
 43343,Blade Renewal,2479380
 43357,Mantra of Liberation,1770460
 43373,Steal Durability,1770613
@@ -2167,14 +2728,19 @@ skill_id,skill_name,file_id
 43448,Sand Cascade,1770538
 43459,Tar Font,103187
 43476,Sun Edge,1770405
+43485,Manifest Sand Shade Shade Hit,1770539
 43488,Fleeting Stability,1770648
+43518,Brutal Aim Deadeye Minion,1770622
 43532,Magebane Tether,1770669
 43536,Double Arc,1770556
 43548,Frenzied Attack,103007
+43558,Rugged Growth,1012665
 43565,Bow of Truth,103671
 43566,Eviscerate,103230
 43576,Plasma Beam,1770345
+43593,Kick Gazelle,1770575
 43616,Crystal Slash,1770358
+43624,Impairing Daggers (Dagger Hit 3),1058635
 43630,Vent Exhaust,103434
 43636,Head Toss,1770560
 43638,Weave Self,1770326
@@ -2182,8 +2748,10 @@ skill_id,skill_name,file_id
 43671,Poison Gas,104051
 43701,Photosynthesize,1770577
 43726,Crippling Leap,103610
+43734,Consuming Bite,991501369
 43739,Photon Wall,1770412
 43745,Sight beyond Sight,1770666
+43759,Sand Cascade (Barrier),1770538
 43761,Axes of Symmetry,1770504
 43762,Pyroclastic Blast,1770352
 43766,Reverberant Shatter,62248
@@ -2193,11 +2761,14 @@ skill_id,skill_name,file_id
 43815,Frenzied Peck,103025
 43826,Searing Slash,1770457
 43845,Cauterize,1770394
+43856,Icerazor's Ire (Hit),1770605
 43916,Double Tap,1770627
 43937,Overheat,1770392
 43993,Spiritcrush,1770599
+43995,Charge (Impact),1770573
 44004,Wastrel's Ruin,1770657
 44008,Voice of Truth,1770495
+44051,Charge Gazelle,1770573
 44076,Heroic Command,1770594
 44080,Mantra of Truth,1770493
 44087,Malicious Death's Judgment,1770628
@@ -2208,6 +2779,7 @@ skill_id,skill_name,file_id
 44240,Lesser Quickening Zephyr,104006
 44241,Split Surge,1770507
 44248,Clarified Conclusion,1770489
+44257,Chapter2 Radiant Recovery Healing,973682702
 44260,Light Strike—Storm,1770398
 44278,Deadly Delivery,1770555
 44296,Oppressive Collapse,1770541
@@ -2221,11 +2793,14 @@ skill_id,skill_name,file_id
 44405,Riptide,1770370
 44428,Garish Pillar,1770536
 44451,Cauterizing Strike,1770375
+44455,Epilogue Unbroken Lines,939821521
 44467,Throw Boulder,62248
+44505,Antiair Ballista Bolt Damage,923810117
 44514,Maul,103515
 44526,Steal Mobility,1770614
 44530,Corona Burst,1770402
 44550,Lahar,1770350
+44562,Double Tap Deadeye Minion,1770636
 44588,Light Strike,1770398
 44591,Spotter's Shot,1770624
 44602,Bleeding Edge,1770456
@@ -2239,6 +2814,9 @@ skill_id,skill_name,file_id
 44677,Mirage Mirror,1770518
 44681,Charged Strike,1770355
 44695,Three Round Burst,1770626
+44703,Unstable Explosion,103716
+44733,Headbutt Gazelle,912208901
+44776,Despawn,947174998
 44791,Lacerating Chop,1770500
 44840,Ethereal Chop,1770501
 44846,Sword of Justice,103669
@@ -2249,29 +2827,37 @@ skill_id,skill_name,file_id
 44926,Stone Resonance,1770329
 44937,Disrupting Stab,1770656
 44946,Manifest Sand Shade,1770539
+44947,Enchantment Collapse,1770018
 44948,Bear Stance,1770561
 44980,Jacaranda's Embrace,1770562
 44991,Swoop,104047
 44998,Polaric Leap,1770367
 45010,Giant Kick,62248
+45022,Chapter1 Desert Bloom Heal,947003166
 45023,Tome of Resolve,1770478
+45039,Shadow Flare Deadeye Minion,1770636
 45046,Illusionary Ambush,1770515
 45047,Core Cleave,1770455
 45082,Flame Rush,1770485
 45088,Malicious Restoration,1770611
 45094,Throw Gunk,102940
+45119,Refraction Cutter Blade,1770408
+45128,Chapter3 Azure Sun,930040255
 45142,Griffon Stance,1770569
 45160,Hushblade,1770658
+45168,Darkrazors Daring Skill Minion,1770604
 45216,Call Lightning,1770357
 45219,Deactivate Photon Forge,1770390
 45230,Mirage Thrust,1770511
 45243,Lingering Thoughts,1770503
 45252,Breaching Strike,1770661
 45259,Polaric Slash,1770356
+45262,Narcotic Spores,1770581
 45313,Flame Uprising,1770369
 45333,Winds of Disenchantment,1770659
 45353,Bite,102762
 45380,Featherfoot Grace,1770664
+45389,Grim Specter Life Steal,1770528
 45402,Blazing Edge,1770459
 45425,Rain of Swords,2479387
 45426,Groundwork Gouge,1770553
@@ -2279,6 +2865,9 @@ skill_id,skill_name,file_id
 45460,Mantra of Lore,1770487
 45479,Sharpen Spines,1128607
 45508,Shadow Meld,1770610
+45515,Skimmer Barrel Roll Damage,953024025
+45526,Split Surge Secondary Beams,1770507
+45534,Loss Aversion,1770015
 45537,Orders from Above,1770595
 45581,Sun Ripper,1770406
 45666,Mirage Retreat,1770517
@@ -2302,33 +2891,49 @@ skill_id,skill_name,file_id
 45970,Moa Stance,1770570
 45979,Gleam Saber,1770407
 45983,Clapotis,1770365
+45990,Root Slap,917180004
 46014,Stone Tide,1770344
 46018,Mud Slide,1770335
 46024,Crystalline Sunder,1770360
+46040,Nefarious Favor Something,1770537
 46044,Magehunter Strike,1770648
 46123,Instinctive Engage,1770557
 46140,Katabatic Wind,1770341
 46148,Mantra of Flame,1770484
 46170,Hammer of Wisdom,103655
 46185,Molten Burst,1770384
+46232,Breakrazors Bastion Minion,1770591
 46233,Aura Slicer,1770655
 46271,Needle Explosion,103130
 46295,Gale Strike,1770373
+46299,Predators Cunning,1769977
 46335,Shadow Gust,1770637
 46360,Absolute Zero,1770386
 46386,Tail Lash,1128617
 46409,Legendary Renegade Stance,1770592
 46432,Brutal Charge,104054
 46447,Lava Skin,1770377
+46469,Sword Of Justice Damage,103669
+46470,Entangle (Hit),103101
+46471,Hammer of Wisdom,103655
+46472,Shield Of The Avenger Shatter,103673
 46473,Manifest Sand Shade,1770539
 46474,Manifest Sand Shade,1770539
 46487,Blinding Radiance,62248
+46508,Mantra Of Truth Damage,1770494
 46547,,62248
 46600,Bow of Truth,103671
+46616,Flame Surge Old,1770486
+46618,Flame Rush Old,1770485
 46627,Blinding Radiance,62248
 46629,Maul,103877
+46726,Desert Shroud Hit,1770535
 46737,Blinding Radiance,62248
 46750,Bow of Truth,103671
+46757,Sand Swell (Barrier Interact Port),1770543
+46808,Nefarious Favor Shade Hit,1770537
+46821,Garish Pillar Shade Hit,1770536
+46824,Sand Cascade Shade Hit,1770538
 46843,Call of the Dwarf,961410
 46847,Call of the Centaur,1024105
 46849,Call of the Renegade,1770592
@@ -2408,12 +3013,14 @@ skill_id,skill_name,file_id
 47846,Eruption,62248
 47847,Wings of Dwayna,62248
 47867,Cascading Earth,62248
+47904,Choya Finisher,1894940
 47907,Twisted Light,62248
 47908,Fingers of the Dead,62248
 47915,Quad Slash,62248
 47933,Rend Earth,62248
 47939,Soul Siphon,1896027
 47941,Balthazar's Flame,62248
+47942,Reclaimed Energy Skill,908708493
 47988,Avatar of Lyssa,62248
 48007,Imbibe,62248
 48009,Corpse Detonation,62248
@@ -2454,6 +3061,7 @@ skill_id,skill_name,file_id
 48339,Righteous Lightning,62248
 48363,Quad Slash,62248
 48377,Deep Freeze,1896079
+48380,Throw Light,965198837
 48386,Scythe Swipe,1012993
 48387,Shoot,62248
 48389,Twisted Shadow,62248
@@ -2488,11 +3096,22 @@ skill_id,skill_name,file_id
 48851,Winds of Chaos,103100
 48865,Razor Dust,62248
 48875,Fissure,103032
+49001,Sandshark Finisher,902235732
 49045,Cleansing Field,1983629
+49052,Soul Stone Venom,968540349
 49056,Signet of Water,103351
+49063,Detonate Plasma,994818211
+49067,Blurred Frenzy Swordman,103790
 49068,Mind Wrack,103732
+49077,Soul Stone Venom (Hit),968540349
 49082,Vital Burst,1983631
+49084,Impact Savant Barrier,1128528
 49097,Lesser Elixir C,103402
+49103,Signet Of The Ether Heal,699528
+49108,Impossible Odds (Hit),1013014
+49112,Throw Magnetic Bomb,965101052
+49123,Unstable Artifact,994661129
+49128,Bond of Life,982268532
 49142,Uppercut,62248
 49154,Arc Lightning,62248
 49176,Noxious Reek,103217
@@ -2556,6 +3175,7 @@ skill_id,skill_name,file_id
 50858,Life Reap,1012932
 50859,Slash,62248
 50861,Shadow Bolt,62248
+50913,Beetle Roll Out Damage,989510540
 50926,Web Net,62248
 50928,Venomous Fangs,62248
 50930,Web Pull,62248
@@ -2693,6 +3313,7 @@ skill_id,skill_name,file_id
 52522,Burning Crucible,62248
 52525,Leap,62248
 52528,Flame Slash,62248
+52571,Bond of Vigor,946436117
 52583,Throw Minion,62248
 52587,Inferno,62248
 52612,Fireball,62248
@@ -2756,6 +3377,8 @@ skill_id,skill_name,file_id
 53134,Frigid Aura,62248
 53146,Fireball,62248
 53153,Fire Dance,62248
+53337,Artillery Barrage (Rune of the Citadel),220696
+53406,Hand of Grenth (Rune of Grenth),220706
 53446,Frost Patch,62248
 53452,Frost Tomb,62248
 53463,Ice Cone,102780
@@ -2798,6 +3421,7 @@ skill_id,skill_name,file_id
 53983,Crippling Dagger,103098
 54011,Double Strike,104065
 54029,Brand Squall,62248
+54032,Bond of Faith,929900279
 54050,Grim Lagoon,681257
 54053,We Bleed Fire,62248
 54070,Slash,103145
@@ -2843,14 +3467,22 @@ skill_id,skill_name,file_id
 54823,Crushing Blow,102764
 54849,Frostblades,103119
 54870,Sandstorm Shroud,2110169
+54877,Warclaw Chain Pull,992143145
+54912,Warclaw Battle Maul Skill,974785149
+54922,Warclaw Battle Maul Damage,974785149
+54935,Shredder Gyro Damage,1128595
+54953,Warclaw Chain Pull,992143145
+54958,Sandstorm Shroud (Detonation),2110169
 55019,Sword of Justice,103669
 55024,Glyph of the Stars,1128631
 55027,Sword of Justice,103669
+55028,Jump Shot Bounce,102798
 55029,Ancient Echo,2128020
 55035,Shield of the Avenger,103673
 55037,Shield of the Avenger,103673
 55040,Hammer of Wisdom,103655
 55046,Glyph of the Stars,1128636
+55047,Generous Abundance (Other),2128013
 55050,Soul Grasp,103137
 55053,Hammer of Wisdom,103655
 55131,Wisp of Will,62248
@@ -2859,8 +3491,11 @@ skill_id,skill_name,file_id
 55316,Barrage,62248
 55342,Ambush,62248
 55406,Ice Bomb,103044
+55536,Blast,908410748
 55549,Crushing Blow,103682
 55596,Slash,62248
+55715,Skyscale,900589957
+55716,Blast (Damage),908410748
 55845,Unearthly Fissure,103946
 55907,Wisp of Will,62248
 55941,Mark of Anguish,62248
@@ -2982,10 +3617,14 @@ skill_id,skill_name,file_id
 56873,Time Sink,2175060
 56880,Pitfall,2175063
 56883,Sunspot,1012316
+56885,Earthen Blast,1012304
+56897,Thousand Needles Damage,2175069
 56898,Thousand Needles,2175069
+56911,Pitfall,2175063
 56916,Dark Pursuit,2175062
 56920,Function Gyro,2175057
 56921,Function Gyro,2175057
+56922,Dark Savior Healing,2175055
 56925,Split Second,2175059
 56928,Rewinder,2175058
 56930,Split Second,2175059
@@ -2997,10 +3636,13 @@ skill_id,skill_name,file_id
 57025,Gnawed,1058646
 57593,Frostbite Aura,62248
 57690,Ice Shatter,62248
+57788,Throw Torch Sacred Torch,102988
+57844,Plate of Spicy Moa Wings (Gastric Distress),2199298
 57951,Charr Volley,62248
 58000,Globolla Marble,62248
 58073,,62248
 58076,Charr Volley,62248
+58083,Warclaw Lance,942616969
 58090,Med Blaster,1012852
 58104,Infusion Bomb,1983630
 58132,Hammer Spin,62248
@@ -3010,16 +3652,20 @@ skill_id,skill_name,file_id
 58179,Barrage,62248
 58184,Ice Shock Wave,103986
 58199,Torrent of Ice,62248
+58205,Spirit Nova Tier,993462175
 58219,Frostbite Aura,62248
 58230,Ice Shock Wave,103986
 58262,Ghostly Grasp,62248
 58276,Snowblind,1601944
+58280,Shattered Psyche Tier,937433353
+58299,Shattered Psyche Tier,937433353
 58300,Slash,62248
 58301,Barrage,62248
 58310,Aberrant Will,62248
 58392,Aberrant Will,62248
 58429,Slice,62248
 58450,Jab,62248
+58452,Night Terror Tier,973567451
 58458,Escape,62248
 58489,Dagger Strike,62248
 58497,Hammer Lunge,62248
@@ -3034,11 +3680,16 @@ skill_id,skill_name,file_id
 58647,Ice Flail,960304
 58664,Ambush,62248
 58669,Barrage,62248
+58685,Night Terror Tier,973567451
 58694,Frostbite Aura,62248
+58732,Spirit Nova Tier,993462175
 58736,Unnatural Aura,62248
 58740,Ice Shock Wave,103986
 58746,Cyclone,62248
 58750,Ambush,62248
+58766,Spirit Nova Tier,993462175
+58798,Shattered Psyche Tier,937433353
+58807,Night Terror Tier,973567451
 58809,Douse in Darkness,62248
 58811,Icequake,62248
 58828,Dagger Strike,62248
@@ -3085,10 +3736,12 @@ skill_id,skill_name,file_id
 59468,Spreading Ice,103986
 59489,Ice Shatter,62248
 59493,Supernova,62248
+59510,Life Transfer Something,103820
 59526,Repeater,103878
 59554,Eternal Bond,1769981
 59562,Explosive Entrance,103091
 59591,Invoke Torment,2261512
+59595,Glaring Resolve,1012682
 59656,Bomb Drop,103013
 59961,Shadow Aura,62248
 59989,Ice Tempest,62248
@@ -3117,12 +3770,18 @@ skill_id,skill_name,file_id
 60369,Body Slam,62248
 60370,Mighty Spin,62248
 60379,Mighty Slashes,62248
+60384,Shattered Psyche Tier,937433353
+60448,Night Terror Tier,973567451
 60473,Giant Kick,62248
+60501,Spirit Nova Tier,993462175
 60524,Giant Flurry,62248
 60527,Blood Charge,2141735
 60545,Lethal Coalescence,103986
 60574,Slash,62248
 60577,Lunge,62248
+60617,Signet Of The Locus Something,58463
+60618,Signet Of Vampirism Heal,699529
+60625,Signet Of Vampirism Skill,699529
 60633,Bombardment,62248
 60664,Leap,62248
 60673,Ice Breath,62248
@@ -3137,6 +3796,7 @@ skill_id,skill_name,file_id
 60947,Ice Breath,62248
 60990,Claw Smash,62248
 61060,Avalanche,62248
+61081,Stealth 2.0,972396506
 61118,Winds of Jormag,62248
 61132,Crash,62248
 61137,Claw Smash,62248
@@ -3350,6 +4010,7 @@ skill_id,skill_name,file_id
 62517,Vicious Shot,2479403
 62521,Roiling Light,2479375
 62522,Twin Blade Restoration,2479390
+62523,Advancing Strike Skill,2479372
 62525,Executioner's Calling,2479371
 62528,Willbender Flames,2479370
 62530,Elixir of Risk,2479399
@@ -3359,10 +4020,13 @@ skill_id,skill_name,file_id
 62549,Heel Crack,2479378
 62552,Willbender Flames,2479370
 62553,Rain of Swords,2479387
+62554,Cutter Burst,2479385
 62555,Crashing Courage,2479369
+62558,Approaching Doom,2479346
 62560,Bladecall,2479379
 62561,Heaven's Palm,2479365
 62563,Vital Draw,2479405
+62564,Unstable Bladestorm (Projectile Hit),2479391
 62565,Whirling Light,2479377
 62567,Harbinger Shroud,2479400
 62568,Blade Leap,103722
@@ -3380,16 +4044,19 @@ skill_id,skill_name,file_id
 62618,Willbender Flames,2479370
 62621,Dark Barrage,2479393
 62622,Reversal of Fortune,2479366
+62624,Rushing Justice (Hit),2479367
 62635,Flowing Resolve,2479368
 62646,Elixir of Ignorance,2479397
 62648,Crashing Courage,2479369
 62650,Advancing Strike,2479372
 62655,Elixir of Ambition,2479394
+62656,Executioner's Calling (Dual Strike),2479371
 62660,Cascading Corruption,2141735
 62662,Elixir of Anguish,2479395
 62667,Elixir of Promise,2479398
 62668,Rushing Justice,2479367
 62669,Repose,2479374
+62671,Deathly Haste,2479345
 62672,Devouring Cut,2479392
 62675,Returning Edge,103728
 62676,Quick Retribution,2479376
@@ -3405,21 +4072,28 @@ skill_id,skill_name,file_id
 62698,Shattering Ice,2491603
 62702,Battle Dance,2491608
 62705,Call of the Alliance,2491626
+62713,Phantom's Onslaught (Hit),2491617
 62716,Shock Blast,2491588
 62719,Selfish Spirit,2491620
 62723,Deploy Jade Sphere,2491600
 62725,Elemental Celerity,2491568
 62729,Alliance Tactics,2491605
+62730,Death Drop Dodge,2491537
+62732,Artillery Slash,969152663
 62738,Drop Urn of Saint Viktor,2491609
 62745,Unsheathe Gunsaber,2491643
 62747,Wind Slam,2491569
 62749,Legendary Alliance,2491626
 62752,Arcing Mists,2491606
+62755,Redemptors Sermon Heal,2491533
 62757,Energy Meld,2491610
 62758,Flame Wheel,2491582
+62772,Steel Divide,903212109
 62778,Ground Pound,2491589
+62789,Cyclone Trigger,900556622
 62793,Tree Song,2491623
 62796,Awakening,2491607
+62797,Dragon Slash Force,958346888
 62800,Dragon's Roar,2491642
 62803,Dragon Trigger,2491645
 62804,Electric Fence,2491653
@@ -3441,35 +4115,48 @@ skill_id,skill_name,file_id
 62859,Imperial Impact,2491538
 62861,Sheathe Gunsaber,2491644
 62862,Chilling Crack,2491572
+62863,Balance In Discord,2491541
 62865,Stream Strike,2491570
 62876,Grand Finale,2491580
 62878,Reaver's Rage,2491618
+62879,Saints Shield Dodge,2491539
 62881,Earth Sphere,2141735
+62883,Dragonspike Mine Damage,2491654
 62884,Surging Flames,2491577
+62885,Break Step,941545149
 62887,Crescent Wind,2491579
 62891,Legendary Alliance Stance,2491626
+62893,Triggerguard,942734489
 62895,Phantom's Onslaught,2491617
 62901,Tactical Reload,2491632
+62909,Shattering Ice (Hit),2491603
 62910,Molten End,2491590
 62913,Mist Swing,2491614
+62918,Explosive Thrust,998913611
 62921,Imperial Guard,2491612
 62925,Singeing Strike,2491574
+62926,Flicker Step,970088595
 62929,Eternity's Requiem,2491611
+62930,Blooming Fire,928013194
+62932,Imperial Impact Dodge,2491538
 62940,Deploy Jade Sphere,2491594
 62941,Tree Song,2491623
 62942,Spear of Archemorus,2491622
 62947,Wind Storm,2491584
 62948,Crashing Font,2491587
 62949,Fire Sphere,2141735
+62951,Dragon Slash Reach,984562818
 62958,Rain of Blows,2491578
 62960,Dragonspike Mine,2491654
 62962,Scavenger Burst,2491619
 62965,Relentless Fire,2491601
+62966,Swift Cut,920346258
 62967,Flow Stabilizer,2491651
 62969,Flow,2491627
 62975,Rocky Loop,2491581
 62976,Whirling Stones,2491576
 62978,Combat Stimulant,2491640
+62980,Dragon Slash Boost,992830567
 62982,Invigorating Air,2491602
 62992,Immutable Stone,2491585
 63049,Rectifier Signet,2503669
@@ -3480,6 +4167,8 @@ skill_id,skill_name,file_id
 63073,Savage Shock Wave,2503720
 63075,Overbearing Smash,2503718
 63077,Mace Smash,2503671
+63078,Eternal Night Healing,2503738
+63082,Venomous Outburst Pet,2503725
 63089,Recall Mech,2503676
 63094,Enveloping Haze,2503727
 63095,Overclock Signet,2503668
@@ -3493,8 +4182,10 @@ skill_id,skill_name,file_id
 63130,Nature's Binding,2503733
 63131,Unleashed Savage Shock Wave,2503721
 63134,Triple Bolt,2503749
+63136,Enveloping Haze Pet,2503727
 63141,Barrier Burst,2503685
 63147,Unleash Ranger,2503729
+63149,Traversing Dusk Heal,2503649
 63154,Triple Threat,2503750
 63155,Enter Shadow Shroud,2503737
 63157,Exploding Spores,2503730
@@ -3503,18 +4194,23 @@ skill_id,skill_name,file_id
 63167,Grasping Shadows,2503740
 63169,Energizing Slam,2503673
 63172,Aerial Support,103434
+63173,Mech Core: Barrier Engine,2503627
 63174,Mace Blast,2503672
+63178,Larcenous Torment Siphon Healing,2503647
+63181,Twilight Combo (Secondary),2503751
 63182,Double Bolt,2503735
 63185,Rocket Punch,2503679
 63186,Mace Strike,2503670
 63188,Spark Revolver,2503680
 63195,Unnatural Traversal,2503732
 63197,Unleashed Overbearing Smash,2503719
+63201,Overbearing Smash (Leap),2503718
 63208,Unleashed Thump,2503723
 63209,Venomous Outburst,2503725
 63210,Mech Support: Depth Charges,2503687
 63220,Dawn's Repose,2503734
 63222,Hammer Slam,2503714
+63224,Unleashed Overbearing Smash (Leap),2503719
 63225,Multishot,2565749
 63227,Dawn's Repose,2503734
 63230,Well of Silence,2503754
@@ -3527,12 +4223,19 @@ skill_id,skill_name,file_id
 63256,Mutate Conditions,2503731
 63258,Rending Vines,2503726
 63262,Barrier Signet,2503688
+63263,Heavy Smash Jade Mech,958966212
+63264,Jade Energy Shot1 Jade Mech,103434
 63267,Measured Shot,2503742
 63275,Shadowfall,2503745
 63276,Well of Sorrow,2503755
+63288,Twin Strike Jade Mech,932338463
 63292,Well of Gloom,2503753
 63293,Crisis Zone,2503675
 63294,Well of Tears,2503756
+63296,Rending Vines Pet,2503726
+63297,Crash Down,2503677
+63298,Hard Strike Jade Mech,960133007
+63300,Recall Mech,2503676
 63301,Jagged Fan,2565751
 63314,Shadowsquall,2503747
 63319,Perilous Gift,2503724
@@ -3545,8 +4248,10 @@ skill_id,skill_name,file_id
 63337,Heavy Smash,2503715
 63344,Unleash Pet,2503728
 63345,Core Reactor Shot,2503683
+63348,Jade Energy Shot2 Jade Mech,103434
 63350,Savage Slash,2565747
 63351,Shadow Sap,2503746
+63352,Exploding Spore,2503730
 63362,Haunt Shot,2503741
 63365,Explosive Knuckle,2503679
 63366,Wild Swing,2503716
@@ -3562,6 +4267,7 @@ skill_id,skill_name,file_id
 63459,Deploy Jade Sphere,2491594
 63461,Deploy Jade Sphere,2491600
 63472,Deploy Jade Sphere,2491596
+63502,Heavy Shot Turtle,2565744
 63503,Fall of the Axe,62248
 63607,Stormfall,62248
 63654,Jade Ricochet,2221494
@@ -3571,6 +4277,8 @@ skill_id,skill_name,file_id
 63802,Wisp of Will,62248
 63838,Storm of Swords,62248
 63841,Explosive Thrust,2604886
+63891,Phase Pounce White Tiger,2604865
+63939,Phase Pounce Soulbeast Merged,2604865
 63984,Discarded Grasp,62248
 64016,Jade Buster Cannon,1770418
 64038,Dash,2604862
@@ -3579,6 +4287,7 @@ skill_id,skill_name,file_id
 64044,Ley Breach,62248
 64080,Reckless Leap,62248
 64104,Fire Dance,62248
+64148,Rescue Protocol,2604806
 64153,Jade Ricochet,2141735
 64214,Mist Meteorite,62248
 64217,Jade Ricochet,2248223
@@ -3611,8 +4320,10 @@ skill_id,skill_name,file_id
 64952,Dragon Slash—Wave,2491630
 64965,Flanking Strike,62248
 64997,Stone Sweep,62248
+65001,Dodge,980433278
 65023,Booming Command,62248
 65031,Tormenting Wave,62248
+65032,Jade Cannon Turtle,2604866
 65109,Guardian's Roar,2604864
 65145,Heaven's Palm,62248
 65157,Electric Blast,62248
@@ -3683,6 +4394,7 @@ skill_id,skill_name,file_id
 67104,Shatter Earth,62248
 67160,Death's Embrace,62248
 67163,Toxic Bullet,62248
+67179,Slam Turtle,2604868
 67244,Stone Sweep,103207
 67295,Focused Destruction,62248
 67327,Volatile Expulsion,103485
@@ -3690,6 +4402,7 @@ skill_id,skill_name,file_id
 67382,Phase Pounce,2604865
 67401,Targeted Expulsion,103121
 67408,Spiritual Lightning,2141735
+67415,Cutter Burst Mindblade,2479385
 67422,Targeted Expulsion,2185992
 67438,Slice,104066
 67443,Embalming Shot,62248
@@ -3703,6 +4416,10 @@ skill_id,skill_name,file_id
 67702,Stone Sweep,103207
 67715,Jade Ricochet,2141736
 67791,,103207
+67807,Shadow Bolt Specter Minion,2503744
+67812,Double Bolt Specter Minion,2503735
+67817,Triple Bolt Specter Minion,2503749
+67818,Triple Threat Specter Minion,2503750
 67822,Toxic Bullet,62248
 67824,Dragon Slash—Rush,2604887
 67825,Dragon Slash—Wave,2491630
@@ -3728,15 +4445,21 @@ skill_id,skill_name,file_id
 68042,Storm of Swords,62248
 68045,Storm of Swords,62248
 68055,Storm of Swords,62248
+68063,Purifying Essence Heal,1013018
+68070,Shielding Restoration Barrier,1012750
 68071,Void Discharge,62248
 68075,Elixir of Ignorance,2479397
 68079,Rifle Burst Grenade,103294
 68081,Elixir of Promise,2479398
 68085,Overcharged Cartridges,2491652
 68090,Elixir of Ambition,2479394
+68091,Jump Shot EOD,102798
+68100,Elemental Refreshment Barrier,1769925
 68105,Elixir of Risk,2479399
 68113,Elixir of Anguish,2479395
+68121,Rifle Burst Grenade Damage,103294
 68132,Elixir of Bliss,2479396
+68216,Banner Of Defense Barrier,104142
 68273,Bladesong Distortion,103284
 68280,Defense Field,1058598
 68308,Toxic Slice,62248
@@ -3788,6 +4511,7 @@ skill_id,skill_name,file_id
 68666,Renewed Focus,103665
 68670,"""Feel My Wrath!""",103702
 68676,Signet of Courage,1012875
+68679,Healing Rain,103262
 68686,Dragon's Maw,1024103
 68714,Slash,62248
 68756,Energy Torrent,1896027
@@ -3809,6 +4533,7 @@ skill_id,skill_name,file_id
 69169,Solar Brilliance,3098875
 69173,Malicious Shadowsquall,3098877
 69175,Solar Brilliance,3098875
+69178,Call Lightning Damage,104018
 69183,"Lesser ""Guard!""",104024
 69184,Dual Orbits: Fire and Water,3098871
 69185,,62248
@@ -3816,21 +4541,27 @@ skill_id,skill_name,file_id
 69211,Dual Orbits: Water and Air,3098872
 69212,Thump,2503722
 69223,Neurotoxin Burst,3098874
+69225,Flying Cutter Extra,2479385
 69240,Dread Visage,62248
 69244,Water Spirit,699530
 69245,Breaching Strike,1770661
 69246,Dual Orbits: Air and Earth,3098867
 69250,Malicious Hook Strike,3098878
+69253,Quake Stone Spirit,104019
 69262,Overbearing Smash,2503718
+69284,Grappling Hook,103235
+69289,Cold Snap Frost Spirit,104017
 69290,Slicing Maelstrom,3098879
 69297,Breaching Strike,1770661
 69300,Spirit of Nature,104011
 69302,Life Siphon,103037
 69311,Bladecall,2479379
 69316,Death's Judgment,3098876
+69336,Natures Renewal Healing,104020
 69340,Savage Shock Wave,2503720
 69341,Dual Orbits: Fire and Air,3098869
 69344,Lingering Thoughts,1770503
+69348,Solar Flare,104016
 69349,Sun Spirit,103944
 69351,Storm Spirit,103993
 69356,Frightening Speed,62248
@@ -3845,41 +4576,70 @@ skill_id,skill_name,file_id
 69433,Breaching Strike,1770661
 69475,,62248
 69555,Attuning Stance,1029981
+69559,Relic of Mercy,3122359
 69560,Shooting Stars,62248
 69564,Shared Destruction,62248
 69565,Radiant Arc,1770409
 69663,World Cleaver,62248
 69723,Blinding Radiance,62248
+69822,Bite White Tiger,103516
 69835,Kryptis Haze,62248
+69849,Relic Of The Nightmare,3122363
 69906,Sun Ripper,1770406
 69925,Painterly Stance,1029981
 69950,Charging Constellation,2604888
 69991,Blinding Radiance,62248
+70001,Relic Of The Defender Healing,3122343
 70014,Stormfall,62248
+70044,Relic Of Akeem,3122330
+70087,Skyscale Fireball Damage,962054077
+70196,Relic of Peitha (Blade),3122365
 70205,Missed Stroke,3124949
+70223,Relic Of The Afflicted,3122329
 70241,Chomp,62248
 70317,Shared Destruction,62248
+70332,Ley Line Vortex Aether Hunter Pet,3124961
 70426,Shared Destruction,62248
+70431,Fireball,962054077
+70491,Relic of the Wizard's Tower,3122378
 70514,Sun Edge,1770405
+70530,Relic Of The Krait,3122355
 70567,Soul Feast,62248
 70584,Charging Constellation,62248
+70617,Relic Of The Sunless,3122370
+70622,Relic Of The Mirage,3122360
 70740,Blinding Radiance,62248
+70765,Relic Of The Flock,3122350
 70771,Gleam Saber,1770407
 70785,Relic of Dwayna,220699
 70889,Ley-Line Vortex,3124961
+70950,Lunge Aether Hunter Pet,3124960
 70981,Relic of Dwayna,220699
 71002,Dimension Breach,3124959
 71042,Meteor Crash,62248
 71047,Demonic Fever,103121
+71051,Relic Of The Ice,3122353
 71082,Demonic Blast,62248
 71085,World Cleaver,62248
 71121,Refraction Cutter,1770408
+71166,Relic Of The Citadel,3122339
 71188,Disrupt Attunement,2156525
+71202,Relic Of Dagda Hit,3122340
+71252,Relic Of Cerus Hit,3122337
 71282,Lunge,3124960
+71356,Relic Of Karakosa Healing,3187629
+71382,Relic Of Nayos Healing,3187631
+71444,Ride The Ley Line,1466358
 71465,Stormfall,62248
 71468,Shearing Winds,62248
 71499,Electrocute,3256377
+71501,Electrocute,3256377
+71510,Unleash Energy Sky Chak,913654112
+71532,Spit Goop Sky Chak,913931185
 71546,Spit Goop,3256379
+71632,Watchful Spirit,921013054
+71645,Healing Rain Convergence,1466357
+71659,Ethereal Healing,920069343
 71667,Corrupted Ground,62248
 71679,Fire Breath,62248
 71688,Ley Energy Pulse,3256378
@@ -3897,6 +4657,7 @@ skill_id,skill_name,file_id
 71813,Hungering Maelstrom,3256372
 71816,Blossoming Aura,3240363
 71817,Jurisdiction,3256355
+71818,Fire Jurisdiction (Level 1),3256356
 71827,Otherworldly Attraction,3240364
 71828,Raging Ricochet,3256329
 71835,Malicious Cunning Salvo,3256392
@@ -3927,6 +4688,7 @@ skill_id,skill_name,file_id
 71895,Recall Axes,3256395
 71897,Journey,3256359
 71898,Purblinding Plasma,3256339
+71901,Line Breaker Heal,3256402
 71903,Thistleguard,3256386
 71904,Electric Exposure,3256323
 71907,Elemental Explosion,3256337
@@ -3943,15 +4705,20 @@ skill_id,skill_name,file_id
 71942,Motivating Whirl,3240362
 71950,Path to Victory,3256396
 71952,Otherworldly Bond,3240366
+71953,Phantasmal Sharpshooter Attack,3256362
+71954,Fire Jurisdiction (Level 2),3256356
 71960,Flowing Finesse,3256342
 71963,Oaken Cudgel,3256385
 71965,Orchestrated Assault,3256390
 71966,Dazing Discharge,3256327
 71967,Spinning Axe,3256391
 71968,Peacekeeper,3256352
+71970,Friendly Fire Illu,3256358
+71972,System Shocker Barrier,2175050
 71974,Path of Gluttony,2479392
 71986,Enervation Blade,3256365
 71987,Symbol of Ignition,3256353
+71989,Detonate Jurisdiction,3256356
 71993,Molten Meteor,3256340
 71998,Devouring Visage,3256374
 71999,Flourish,3256384
@@ -3973,6 +4740,7 @@ skill_id,skill_name,file_id
 72049,Inspiring Whirl,3256400
 72051,Deathly Enervation,3256367
 72052,Essence of Animated Sand,3256345
+72053,Fire Jurisdiction (Level 3),3256356
 72058,Energy Meld,2491610
 72062,Echoing Erosion,3256343
 72068,Gormandize,3256373
@@ -3984,26 +4752,39 @@ skill_id,skill_name,file_id
 72104,Zealot's Flame,103231
 72109,Detonate Blossoming Aura,3256388
 72114,Function Gyro,2175057
+72115,Relic of the Flock (Barrier),3122350
 72212,Stormfall,62248
 72284,Enraging Stomp,62248
 72314,Abyss Rift,62248
+72353,Icerazors Ire Skill Minion Reworked,1770605
 72359,Icerazor's Ire,1770605
+72360,Darkrazors Daring Skill Minion Reworked,1770604
 72363,Razorclaw's Rage,1770606
+72365,Breakrazors Bastion Skill Minion Reworked,1770591
 72366,Darkrazor's Daring,1770604
 72369,Carnivore,1012659
+72370,Razorclaws Rage Skill Minion Reworked,1770606
+72376,Soulcleaves Summit Hit Reworked,1770589
+72388,Razorclaws Rage Hit Reworked,1770606
 72389,Breakrazor's Bastion,1770591
 72432,Frightening Speed,62248
 72438,Dread Visage,62248
 72441,,62248
 72468,Rage Fissure,62248
+72527,Tormenting Vision Spinegazer,3307110
+72548,Relic of the Founding (Barrier),3302016
+72603,Evil Eye,917176102
 72636,Tormenting Visions,3307110
 72643,Rage Fissure,62248
+72652,Staring Void Spinegazer,939996448
 72665,Vialgos's Toxin Pool,62248
+72707,Relic Of The Twin Generals,3302019
 72709,Annihilate,62248
 72717,Dread Visage,62248
 72779,Rapid Decay,62248
 72843,Panopticon,3307108
 72851,Staring Void,3307109
+72893,Heart Of The Obscure,987213620
 72896,Entangling Asp,3379190
 72897,Maiming Spear,3379200
 72900,Etching: Haboob,3379096
@@ -4017,17 +4798,22 @@ skill_id,skill_name,file_id
 72915,Etching: Derecho,3379093
 72916,Frostfire Ward,3379105
 72920,Bee's Sting,3379171
+72921,Psystrike Clone,3379153
 72922,Drake's Swipe,3379171
+72923,Daybreaking Slash Wave,3379124
 72924,Malicious Ashen Assault,3379198
 72927,Distracting Throw,3379195
 72928,Falcon's Stoop,3379176
 72931,Abyssal Fire,3379183
 72932,Ravager's Abandon,3379182
+72934,Psycut Clone,3379152
 72935,Lesser Haboob,3379097
+72936,Mind Pierce Clone,3379154
 72938,Abyssal Blitz,3379185
 72940,Helio Rush,3379125
 72944,Puncturing Jab,3379111
 72946,Phantasmal Lancer,3379157
+72949,Mighty Throw (Scattered Spear),3379199
 72954,Abyssal Blot,3379186
 72957,Mental Collapse,3379158
 72958,Mighty Throw,3379199
@@ -4067,6 +4853,7 @@ skill_id,skill_name,file_id
 73040,Deadly Slice,3379160
 73041,Mantis Sting,3379189
 73042,Harrier's Toss,3379205
+73043,Wolf's Onslaught (Follow Up),3379175
 73044,Volcano,3379101
 73047,Sinister Stab,3379161
 73052,Elutriate,3379108
@@ -4082,7 +4869,9 @@ skill_id,skill_name,file_id
 73067,Fractured Glass,3379151
 73068,Perforate,3379162
 73076,Falling Spider,3379191
+73077,Abyssal Raze Unleash,3379187
 73080,Blazing Barrage,3379083
+73082,Barbed Spear (Ranged),3379188
 73087,Cheetah's Strike,3379173
 73088,Flame Spear,3379079
 73091,Fulgor,3379081
@@ -4101,8 +4890,10 @@ skill_id,skill_name,file_id
 73116,Distress,3379165
 73122,Conduit Surge,3379114
 73124,Lightning Javelin,3379077
+73131,Wild Throw Extra,3379204
 73132,Symbol of Luminance,3379129
 73137,Seethe,3379087
+73139,Abyssal Strike,3379183
 73140,Jökulhlaup,3379104
 73143,Electric Artillery,3379116
 73145,Barbed Spear,3379188
@@ -4111,22 +4902,36 @@ skill_id,skill_name,file_id
 73150,Predator's Ambush,3379179
 73152,Imaginary Inversion,3379156
 73154,Psycut,3379152
+73199,Solar Storm Illuminated Healing,3379128
 73225,Missed Stroke,3124949
 73270,Overcharged Conduit Blast,62248
 73348,Acid Spray,62248
+73397,Warclaw Battle Maul Pv E,974785149
+73587,Warclaw Chain Pull,992143145
+73653,Warclaw Dash Wild Claws,960774372
+73714,Relic Of Sorrow Heal,3375222
 73733,Battle Maul,3379167
+73743,Phantasmal Javelin,3379157
 73755,Haunting Echo,62248
 73765,Harrowing Prison,1302719
+73766,Warclaw Battle Maul Pv E,974785149
+73794,Relic Of The Blightbringer,3375219
+73851,Relic of the Stormsinger (Chain),3375223
 73912,Painterly Stance,1029981
 73938,Bop,3379168
+73984,Warclaw Chain Pull Pv E,992143145
 74064,Stone Sweep,62248
 74131,Wicked Swipe,62248
 74132,Eruption of Rot,62248
 74208,,62248
 74269,Stone Sweep,103207
+74290,Spearmarshals Support Bombard,3379203
 74314,Rallying Roar,3379169
+74331,Warclaw Lance Pv E,942616969
 74432,Bloodstone Paradox,62248
+74560,Warclaw Battle Maul Pv E,974785149
 74578,Spectral Impact,62248
+74619,Phantasmal Lancer Damage,3379157
 74641,Chorus of Thunder,62248
 74653,Seismic Crash,62248
 74660,Fluxlance Fusillade,62248
@@ -4155,6 +4960,7 @@ skill_id,skill_name,file_id
 74829,Noxious Blight,62248
 74842,Foreshock,62248
 74843,Noxious Blight,62248
+74844,Deploy Shield Generator,938596885
 74851,Enfeebling Miasma,62248
 74857,Propel,62248
 74864,Decimation,62248
@@ -4175,6 +4981,7 @@ skill_id,skill_name,file_id
 74916,Fluxlance Salvo,62248
 74917,Cage of Decay,62248
 74920,Earthrend,62248
+74921,Deploy Arrow Cart,938596885
 74924,Fluxlance,62248
 74927,Seismic Crash,62248
 74931,Sulfuric Froth,62248
@@ -4187,6 +4994,8 @@ skill_id,skill_name,file_id
 74973,Fluxlance Salvo,62248
 74976,Eruption of Rot,62248
 74978,Fulminate,62248
+74988,Relic Of The Beehive,3441970
+75021,Deploy Catapult,938596885
 75025,Cage of Decay,62248
 75026,Noxious Blight,62248
 75030,Seismic Crash,62248
@@ -4210,6 +5019,7 @@ skill_id,skill_name,file_id
 75149,Toxic Geyser,62248
 75154,Empowering Blast,62248
 75155,Fluxlance,62248
+75158,Deploy Flame Ram,938596885
 75168,Earthrend,62248
 75179,Mainshock,62248
 75182,Eruption of Rot,62248
@@ -4221,15 +5031,20 @@ skill_id,skill_name,file_id
 75205,Fulminate,62248
 75210,Sweep the Mold,62248
 75221,Fulgent Aura,62248
+75227,Deploy Siege Suit,938596885
 75231,Foreshock,62248
 75236,Acid Spray,62248
+75238,Deploy Sentry Turret,103201
 75248,Stomp the Growth,62248
 75249,Discordant Thunder,62248
 75251,Rot Eruption,62248
 75258,Pressure Blast,62248
 75262,Scattering Sporeblast,62248
+75267,Tracer,625760
 75270,Sparking Aura,62248
+75271,Deploy Trebuchet,938596885
 75277,Earthrend,62248
+75278,Deploy Ballista,938596885
 75286,Rake the Rot,62248
 75287,Rot the World,62248
 75288,Enfeebling Miasma,62248
@@ -4243,6 +5058,13 @@ skill_id,skill_name,file_id
 75346,Seismic Crash,62248
 75347,,62248
 75348,Fluxlance Salvo,62248
+75362,Deploy Arrow Cart,954914874
+75363,Deploy Shield Generator,923822785
+75364,Deploy Flame Ram,919137795
+75369,Deploy Siege Suit,924638076
+75372,Deploy Ballista,904903546
+75374,Deploy Catapult,926548478
+75375,Deploy Trebuchet,986396538
 75391,Deploy Jade Sphere,2491598
 75392,Deploy Jade Sphere,2491600
 75394,Deploy Jade Sphere,2491594
@@ -4293,6 +5115,7 @@ skill_id,skill_name,file_id
 75559,Noxious Blight,62248
 75561,Discordant Thunder,62248
 75569,Fluxlance Salvo,62248
+75574,Relic Of Vampirism Healing,3592842
 75575,Stomp the Growth,62248
 75585,,62248
 75591,Blob of Blight,62248
@@ -4306,6 +5129,7 @@ skill_id,skill_name,file_id
 75651,Sparking Reverberation,103035
 75657,Fracture Armor,62248
 75659,Mainshock,62248
+75661,Bumble Janthiri Bee,3594073
 75665,The World Ends in Decay,62248
 75666,Flux Nova,62248
 75681,Rake the Rot,62248
@@ -4317,6 +5141,7 @@ skill_id,skill_name,file_id
 75702,Enfeebling Miasma,62248
 75707,Seeds of Decay,62248
 75729,Foreshock,62248
+75748,Relic Of The Holosmith,3592836
 75749,Enfeebling Miasma,62248
 75750,Cage of Decay,62248
 75751,Harmonic Sensitivity,62248
@@ -4384,6 +5209,7 @@ skill_id,skill_name,file_id
 76292,Gorefrost,62248
 76295,Wicked Swipe,62248
 76307,Return,62248
+76315,Bloodstone Explosion,3629397
 76332,Frozen Teeth,62248
 76341,Vitreous Spike,62248
 76343,Vitreous Spike,62248
@@ -4409,16 +5235,20 @@ skill_id,skill_name,file_id
 76510,Hailstorm,103986
 76530,Magnetic Bomb,103176
 76535,Guttering Light,62248
+76549,Splinter Weapon Skill,3680182
 76550,Forged Surfer Dash,3680211
 76552,Lively Lute,3680159
 76562,"""We Will Never Yield!""",3680223
 76563,Otter's Compassion,3680123
+76568,Offensive Protocol: Shred,3680134
 76572,Glaring Burst,3680152
 76580,Air Attunement,103048
 76582,Metal Legion Guitar,3680214
 76583,Hare's Agility,3680122
 76585,Conflagration,3680115
 76591,Metal Legion Guitar,3680214
+76596,Metal Legion Guitar (Smash),3680214
+76598,Anguish Autoattack,3680170
 76601,Exalted Hammer,3680210
 76602,Innervate Preservation,3680174
 76607,Summon Spirits,3680177
@@ -4429,27 +5259,37 @@ skill_id,skill_name,file_id
 76616,Exit Radiant Forge,3680146
 76618,Lightning Blitz,3680113
 76619,Whirlwind,3680196
+76620,Antivenom Draught Healing,3680207
 76621,Resolute Stance,3680141
 76633,Forged Surfer Dash,3680211
 76634,Rejuvenate,3680112
+76640,Defensive Protocol: Thorns,3680135
 76642,Evolve,3680129
 76643,Ignite,3680117
 76647,Innervate Preservation,3680174
 76651,Evolve,3680129
 76664,Hawkeye,3680191
+76672,Mistral Damage,3680194
 76674,Holo-Dancer Decoy,3680212
+76677,Inquest Portal Device,3680221
 76681,Seismic Impact,3680118
 76684,Preservation,3680173
 76687,Daring Advance,3680140
 76689,Syncopate,3679969
+76693,Offensive Protocol: Demolish,3680128
 76695,Tale of the Second Scion,3680158
+76696,Emergency Jade Shield Barrier Buff,3680222
 76702,Exalted Hammer,3680210
 76703,Fire Attunement,103035
+76705,Offensive Protocol: Obliterate,3680130
 76707,Seismic Impact,3680118
 76708,Luminous Staff,3680148
+76709,Splash Pet Skill,3680119
 76711,Fox's Fury,3680121
 76722,Pelt,3680189
 76725,Stone Summit Cannon,3680219
+76726,Twin Moon Sweep,3680198
+76730,Effulgent Stance (Damage),3680156
 76732,Innervate Wanderlust,3680179
 76733,Zephyrite Sun Crystal,3680218
 76738,Mitotic State,3680126
@@ -4461,13 +5301,18 @@ skill_id,skill_name,file_id
 76755,"""We Shall Return!""",3680224
 76757,Mistral,3680194
 76758,Innervate Wanderlust,3680179
+76763,On Your Knees Echo,3680231
+76765,Harmonious Harp (Afterimage),3680162
 76769,"""Never Surrender!""",3680230
 76782,Chant of Recuperation,3680227
+76783,Explosive Growth Damage Skill,3679981
 76784,Emergency Jade Shield,3680222
 76787,Summon Cyclone Bow,3680193
 76790,Locked,3680232
+76797,Holo Dancer Taunt,3680212
 76798,Defensive Protocol: Cleanse,3680127
 76800,Holo-Dancer Decoy,3680212
+76803,Zap Pet Skill,3680120
 76805,Beguiling Haze,3680203
 76806,Offensive Protocol: Obliterate,3680130
 76807,Quarry's Peril,3680189
@@ -4476,34 +5321,51 @@ skill_id,skill_name,file_id
 76813,Effulgent Stance,3680156
 76815,Offensive Protocol: Pierce,3680131
 76816,Chak Shield,3680209
+76818,Form Of The Dervish Damage,3680046
+76822,Syncopate,3679969
+76823,Lively Lute (Afterimage),3680159
 76841,Elemental Procession,3680111
+76844,Emergency Jade Shield Backfired Damage And Barrier Buff,3680222
 76846,Shrike,3679999
 76850,Tale of the Soulkeeper,3680164
+76862,Chant Of Recuperation Barrier,3680227
+76863,Chant Of Recuperation Healing,3680227
 76864,Anguish,3680170
+76866,Offensive Protocol: Shred,3680134
 76879,Emergency Jade Shield,3680222
 76881,Antivenom Draught: Backfired,3680207
+76882,Ignite Pet Skill,3680117
 76886,Antivenom Draught,3680207
+76892,Deafening Drum (Afterimage),3680161
 76895,Zephyrite Sun Crystal,3680218
 76900,Summon Kryptis Turret,3680213
+76901,Offensive Protocol: Obliterate,3680130
 76905,Wuthering Wind,3679993
 76908,Liquid State,3680137
 76909,Unstable Skritt Bomb,3680208
 76910,Shining Spin,3680143
+76914,Lightning Blitz Pet Skill,3680113
 76917,Beguiling Haze,3680203
 76924,Gleaming Blade,3680151
+76925,Calcify Pet Skill,3680114
 76927,Offensive Protocol: Demolish,3680128
 76931,Crescendo,3680163
+76932,Thorns Skill,3680135
 76933,Exit Ritualist's Shroud,3680175
 76934,"""Brace Yourselves!""",3680228
 76935,Buoyant Deluge,3680116
 76941,Xinrae's Weapon,3680168
+76947,Preservation Healing Buff,3680173
 76950,Glaring Burst,3680152
+76953,Preservation Autoattack,3680173
+76954,Offensive Protocol: Demolish,3680128
 76959,Defensive Protocol: Protect,3680132
 76960,Harmonious Harp,3680162
 76961,Wanderlust,3680178
 76966,Reshuffle,3680216
 76968,Twin Moon Sweep,3680198
 76971,Tale of the August Queen,3680157
+76974,Magpies Defense Barrier Buff,3680025
 76975,Splinter Weapon,3680182
 76978,Brilliant Slam,3680145
 76979,Perfect Storm,3680184
@@ -4512,12 +5374,20 @@ skill_id,skill_name,file_id
 76993,Flux State,3680125
 77001,Twin Moon Sweep,3680198
 77003,Innervate Anguish,3680171
+77005,Offensive Protocol: Pierce,3680131
 77012,Fleeting Zephyr,3680188
+77013,Offensive Protocol: Demolish,3680128
+77015,Offensive Protocol: Pierce,3680131
 77018,Gaseous State,3680136
+77020,Restorative Glow Healing Buff,3680149
+77021,Mistfire,3680009
 77022,Weapon of Remedy,3680181
+77028,Holo-Dancer Decoy,3680212
+77029,Anguish,3680170
 77038,Hare's Agility,3680122
 77040,"""Find Their Weakness!""",3680229
 77043,Shielding Hands,3680199
+77047,Beguiling Haze,3680203
 77050,Innervate Anguish,3680171
 77058,Glaring Burst,3680152
 77061,Essence Blast,3680172
@@ -4533,8 +5403,11 @@ skill_id,skill_name,file_id
 77092,Stone Summit Cannon,3680219
 77096,Elemental Procession,3680111
 77103,Offensive Protocol: Shred,3680134
+77104,Defensive Protocol: Thorns,3680135
 77107,Locked,3680232
 77114,"""On Your Knees!""",3680231
+77116,Form of the Dervish (Elite),3680046
+77120,Wanderlust (Spirit),3680178
 77136,Restorative Glow,3680149
 77141,Beguiling Haze,3680203
 77155,Chant of Freedom,3680226
@@ -4542,6 +5415,7 @@ skill_id,skill_name,file_id
 77163,Defensive Protocol: Thorns,3680135
 77164,Sovereign of Light,103144
 77174,Supersonic Arrow,3680190
+77176,Flustering Flute (Afterimage),3680160
 77178,Tale of the Valiant Marshal,3680166
 77183,Keen Shot,3680186
 77190,Otter's Compassion,3680123
@@ -4555,12 +5429,15 @@ skill_id,skill_name,file_id
 77225,Splash,3680119
 77226,Calcify,3680114
 77230,Canach-Coin Toss,3680220
+77231,Wanderlust Autoattack,3680178
 77238,Ritualist's Shroud,3680176
 77240,,2221493
 77243,Hex-Eater Vortex,3680205
 77247,Toad's Fortitude,3680124
 77255,Skritt Scuffle,3680206
 77259,Resilient Weapon,3680169
+77260,Enterprising Aristocrat Barrier,3680026
+77262,Rapacious Strain,3680135
 77264,Piercing Gales,3680195
 77268,Stab,62248
 77270,Pelt,3680189
@@ -4571,6 +5448,7 @@ skill_id,skill_name,file_id
 77291,Gladiator's Defense,3680204
 77300,Valorous Stance,3680155
 77306,Lively Lute,3680159
+77307,Plasmatic State Skill,3680138
 77319,Bluster,3680187
 77320,Toad's Fortitude,3680124
 77321,Stalwart Stance,3680153
@@ -4579,6 +5457,7 @@ skill_id,skill_name,file_id
 77339,Dazzling Hammer,3680142
 77342,Chant of Action,3680225
 77345,Ignite,3680117
+77353,Beguiling Haze,3680203
 77357,Buoyant Deluge,3680116
 77361,Inquest Portal Device: Backfired,3680221
 77366,Lucent Thrust,3680150
@@ -4587,16 +5466,21 @@ skill_id,skill_name,file_id
 77387,Electric Enchantment,3680122
 77388,Locked,3680232
 77397,Skritt Swipe,3680217
+77746,Exalted Hammer Skill Healing,3680210
 77748,Sketching,1029981
 77752,Unrelenting Assault,1013004
+77860,Summon Spirits (Wanderlust),3680177
 77896,Release Potential: Warrior,3713172
 77898,Petting Fox,1896024
+78041,Relic Of The Biomancer,3709378
+78087,Relic Of Castora,3709379
 78091,Leaping Lizard,3713167
 78191,Embrace the Darkness,961453
 78203,Call to Anguish,961452
 78309,Zephyrite Sun Crystal,3680218
 78351,Unyielding Impact,3645915
 78358,Radiant Courage,3713156
+78440,Forged Surfer Dash (Additional Bombs),3680211
 78442,Fractured Land,62248
 78465,Blunderblast,62248
 78501,Release Potential: Monk,3713171
@@ -4607,48 +5491,71 @@ skill_id,skill_name,file_id
 78587,Banish Enchantment,961449
 78604,Radiant Resolve,3713158
 78615,Release Potential: Mesmer,3746485
+78660,Summon Spirits (Anguish 1),3680177
 78661,Release Potential: Dervish,3713170
 78674,Glaring Burst,3680152
 78681,Empowering Misery,961456
 78730,Glaring Burst,3680152
 78770,Radiant Courage,3713156
 78798,Call to Anguish,961452
+78806,Relic Of The Mist Stranger,3709381
 78837,Radiant Justice,3713157
 78845,Release Potential: Assassin,3713169
 78873,Piercing Shriek,3713168
 78895,Release Potential: Warrior,3713172
+78971,Lesser Enchanted Daggers,1012989
 78997,Inaccurate Sketch,2604827
 79094,Brush Fur the Wrong Way,104015
 79203,Saurian Might,3713166
+79246,Summon Spirits (Anguish 2),3680177
 79285,Zephyrite Sun Crystal,3680218
 79309,Perfect Storm,3680184
 79314,Rejuvenate,3729561
 79315,Rejuvenate,3729560
 79323,Rejuvenate,3729562
 79324,Mistral,3680194
+79332,Frostfire Ward Secondary Attack,3379105
+79333,Elutriate Secondary Attack,3379108
 79336,Lesser Symbol of Blades,103268
+79340,Signet Of The Locus Something,58463
+79342,Soothing Burst Secondary Attack,3379109
+79343,Signet Of The Locus Something,58463
 79344,Lesser Signet of the Locust,58463
+79356,Galvanize Secondary Attack,3379106
 79359,Time Bomb,1012478
+79360,Shale Storm Secondary Attack,3379110
+79361,Fiery Impact Secondary Attack,3379107
+79370,Chain Reactivity Barrier3rd Hit,1012338
 79371,"Lesser ""Sic 'Em!""",104025
 79398,Tantrum,62248
+79423,Relic of Shackles (Damage),3745069
 79425,Ambush,62248
 79431,Rend Asunder,62248
 79448,Lightning Strike,62248
 79452,Tantrum,62248
 79456,Stomp,62248
 79486,Claw Slam,62248
+79489,Relic Of The Nautical Beast Damage Healing,3745068
+79495,Throw Relic,965198837
+79505,Relic Of The Forest Dweller Missile Damage,3745067
 79507,Ambush,62248
 79524,Tornado,62248
 79545,Ambush,62248
 79634,Movement Skill Projectile,62248
+79654,Jet Juvenile River Otter,3772575
 79766,Innocent Display,3772574
 80031,Tail Whip,3772577
 80035,Jet,3772575
+80072,Relic of Galdra,3770713
 80149,Spiral Burst Skill,62248
+80164,Tail Whip Juvenile River Otter,3772577
+80186,Scratch Juvenile River Otter,988933219
 80203,Bloodthirster,3790492
 80210,Detonate Chaos,3256361
 80221,Bloodthirster,3790492
+80224,Rend (Follow Up),3790493
 80231,Unravel,1770330
+80234,Unshakable Mountain Barrier,2491546
 80244,Flawless Execution,3790491
 80247,Rend,3790493
 80248,Bloodthirster,3790492
@@ -4659,11 +5566,16 @@ skill_id,skill_name,file_id
 80337,Ascension's Sacrifice,62248
 80339,Orb of Despair,62248
 80378,Judgment of Eternity,62248
+80387,Shadows Torment,952227339
+80397,Vessel Of The Mists,904427704
 80399,Cosmic Charge,62248
 80420,Visions of Eternity,62248
 80470,Division Eternal,62248
+80476,Nurturing Bloom,972975152
 80483,Division Eternal,62248
 80484,Surrounding Curse,62248
+80486,Ferocious Assault,975839969
+80506,Ferocious Assault,975839969
 80512,Cosmic Charge,62248
 80526,Surrounding Curse,62248
 80527,Echoing Blade,62248
@@ -4678,15 +5590,24 @@ skill_id,skill_name,file_id
 80652,Ferocious Assault,3807295
 80653,Surrounding Curse,62248
 80654,Ferocious Assault,3807295
+80655,Wild Wrath,972975152
 80657,Stone Sweep,103207
+80667,Heart Of The Obscure Vo E,987213620
 80719,Judgment of Eternity,62248
+80729,Aberrant Feast,957670811
 80740,Storm Summoning,103134
+80745,The Big Gun,994563455
+80747,Relic Of The Eternal Alchemy Healing,3806030
 80760,Worldpiercer,62248
 80761,Raging Storm,62248
 80775,Thousand Strikes,62248
+80790,Heart Of The Obscure Vo E,987213620
 80802,Slice Through Reality,62248
+80803,Ferocious Assault,975839969
 80809,Probability Distribution,62248
 80810,Raging Storm,62248
+80811,Nurturing Bloom,972975152
+80862,Mirror Wall,908975381
 80901,Excision Extremis,62248
 80908,Echoing Outburst,3807296
 80916,Worldpiercer,62248
@@ -4698,13 +5619,17 @@ skill_id,skill_name,file_id
 81017,Visions of Eternity,62248
 81024,Enervate,3807297
 81029,Excision Extremis,62248
+81043,Elemental Hurricane,947336096
 81053,Excision Extremis,62248
 81058,Orb of Despair,62248
+81068,Relic Of The Last Tyrant Damage,3806032
 81071,Threshold of Eternity,62248
 81076,Ascension's Sacrifice,62248
+81139,Ferocious Assault,975839969
 81149,Eternal Reflection,62248
 81165,Judgment of Eternity,62248
 81176,Raging Storm,62248
+81184,Shadow Dance,988542270
 81204,Stone Sweep,62248
 81209,Eternal Reflection,62248
 81230,Surrounding Curse,62248
