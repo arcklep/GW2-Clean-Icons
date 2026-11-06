@@ -19,6 +19,8 @@ From [Releases](../../releases):
 - `GW2-Clean-Icons.zip`: the pack as addons use it (this repository's layout).
 - `GW2-Clean-Icons-named.zip`: the same icons named for people (`skills/Fireball - 102965.png`,
   `effects/Might - 102852.png`), for browsing or your own projects.
+- `Nameplate-SCT-Icons-64.zip`: the rounded icons at 64 × 64, compressed (about 10 MB), for the scrolling
+  combat text in Better Nameplates / Joycat UI. See [`nameplate-sct-64/`](nameplate-sct-64/).
 
 ## Layout
 
@@ -26,6 +28,7 @@ From [Releases](../../releases):
 |---|---|
 | `icons/<file id>.png` | every icon. The file id is the number at the end of the icon's `render.guildwars2.com` URL, so it matches the `icon` field of the GW2 API. |
 | `icons_square/<file id>.png` | the same icons with square corners instead of rounded ones (icons with their own shape, like boons and conditions, are identical in both) |
+| `nameplate-sct-64/` | the rounded icons at 64 × 64 (256-colour PNG) for Nameplate Scrolling Combat Text, with its own `skills.json` and `effect_ids.json`; `make.py` rebuilds it |
 | `skills.json` | skill id → file id. Besides the API's skills, this covers the ids arcdps reports damage under that the API doesn't have (trait procs, pets, relics, siege, mounts, extra hits of a skill), mapped with [Elite Insights](https://github.com/baaron4/GW2-Elite-Insights-Parser)' icon table. Their art that isn't on `render.guildwars2.com` (from the wiki) has file ids from 900000000 up. |
 | `effects.json` | effect name (as the API's skill and trait facts name it, e.g. `"Might"`, `"Poisoned"`) → file id |
 | `effect_ids.json` | effect id as arcdps and buff lists use it → file id, for the core boons and conditions (the API has no effect ids) |
