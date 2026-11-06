@@ -1,7 +1,7 @@
 # GW2 Clean Icons, 64 px (for Nameplate Scrolling Combat Text)
 
 A small copy of the pack's rounded skill icons (`icons/`, not `icons_square/`) made for the scrolling combat text
-in Better Nameplates / Joycat UI, which draws skill icons next to the damage numbers on enemy nameplates.
+in Better Nameplates, which draws skill icons next to the damage numbers on enemy nameplates.
 
 - 64 × 64 PNG, 256-colour palette with alpha: about a tenth of the full pack's size.
 - `icons/<file id>.png`, `skills.json` and `effect_ids.json` work exactly like the full pack's (see the main README).

@@ -20,7 +20,7 @@ From [Releases](../../releases):
 - `GW2-Clean-Icons-named.zip`: the same icons named for people (`skills/Fireball - 102965.png`,
   `effects/Might - 102852.png`), for browsing or your own projects.
 - `Nameplate-SCT-Icons-64.zip`: the rounded icons at 64 × 64, compressed (about 10 MB), for the scrolling
-  combat text in Better Nameplates / Joycat UI. See [`nameplate-sct-64/`](nameplate-sct-64/).
+  combat text in Better Nameplates. See [`nameplate-sct-64/`](nameplate-sct-64/).
 
 ## Layout
 
