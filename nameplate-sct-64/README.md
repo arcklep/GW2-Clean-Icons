@@ -1,4 +1,4 @@
-# GW2 Clean Icons, 64 px (for Nameplate Scrolling Combat Text)
+# GW2 Clean Squares, 64 px (for Nameplate Scrolling Combat Text)
 
 A small copy of the pack's rounded skill icons (`icons/`, not `icons_square/`) made for the scrolling combat text
 in Better Nameplates, which draws skill icons next to the damage numbers on enemy nameplates.

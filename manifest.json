@@ -1,6 +1,7 @@
 {
-  "name": "GW2 Clean Icons",
-  "version": "1.2.0",
+  "name": "GW2 Clean Squares",
+  "based_on": "GW2 Clean Icons 1.2.0",
+  "version": "1.2.0-squares",
   "icon_size": 128,
   "icons": 2740,
   "skills": 5642,

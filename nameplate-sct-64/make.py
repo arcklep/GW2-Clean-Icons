@@ -23,7 +23,7 @@ def main():
         shutil.copyfile(os.path.join(ROOT, name), os.path.join(OUT, name))
     pack = json.load(open(os.path.join(ROOT, 'manifest.json')))
     manifest = {
-        'name': 'GW2 Clean Icons, 64 px for Nameplate Scrolling Combat Text',
+        'name': pack['name'] + ', 64 px for Nameplate Scrolling Combat Text',
         'version': pack['version'],
         'icon_size': SIZE,
         'icons': len(files),

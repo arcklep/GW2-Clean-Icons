@@ -1,4 +1,9 @@
-# GW2 Clean Icons
+# GW2 Clean Squares
+
+A version of [GW2 Clean Icons](https://github.com/arcklep/GW2-Clean-Icons/tree/main) with **square boons and
+conditions**: the same icons, except the boon and condition badges are plain squares in their own colour
+with the symbol in the middle, so they line up with the skill icons. It is a drop-in replacement: same
+layout, same file ids, same install folder.
 
 Every Guild Wars 2 skill icon, plus boons, conditions and other effects, cleaned up for addons:
 **2,740 icons** covering **5,642 skills** and **427 effects**, 128 × 128 PNG.
@@ -18,8 +23,8 @@ Every Guild Wars 2 skill icon, plus boons, conditions and other effects, cleaned
 
 From [Releases](../../releases):
 
-- `GW2-Clean-Icons.zip`: the pack as addons use it (this repository's layout).
-- `GW2-Clean-Icons-named.zip`: the same icons named for people (`skills/Fireball - 102965.png`,
+- `GW2-Clean-Squares.zip`: the pack as addons use it (this repository's layout).
+- `GW2-Clean-Squares-named.zip`: the same icons named for people (`skills/Fireball - 102965.png`,
   `effects/Might - 102852.png`), for browsing or your own projects.
 - `Nameplate-SCT-Icons-64.zip`: the rounded icons at 64 × 64, compressed (about 10 MB), for the scrolling
   combat text in Better Nameplates. See [`nameplate-sct-64/`](nameplate-sct-64/).
@@ -39,7 +44,8 @@ From [Releases](../../releases):
 
 ## For addon developers
 
-**Shared install location:** extract `GW2-Clean-Icons.zip` into Nexus' shared folder, so every addon
+**Shared install location:** extract `GW2-Clean-Squares.zip` into Nexus' shared folder (the same folder as
+GW2 Clean Icons, which it replaces), so every addon
 finds the same copy:
 
 ```
@@ -47,7 +53,8 @@ finds the same copy:
 ```
 
 In a Nexus addon that's `Paths_GetCommonDirectory()` + `\GW2-Clean-Icons\`. If `manifest.json` is
-there, the pack is installed. Its `version` tells you which one.
+there, the pack is installed. Its `version` tells you which one, and its `name` (`GW2 Clean Squares`)
+which version of the pack.
 
 **Looking up an icon:**
 - From an icon URL you already have from the API: take the number before `.png` and load
@@ -60,7 +67,7 @@ there, the pack is installed. Its `version` tells you which one.
 **Fetching single icons** without installing the pack, through jsDelivr (pin a version):
 
 ```
-https://cdn.jsdelivr.net/gh/arcklep/GW2-Clean-Icons@v1.1.0/icons/102965.png
+https://cdn.jsdelivr.net/gh/arcklep/GW2-Clean-Icons@clean-squares/icons/102852.png
 ```
 
 Not included: icons the API doesn't serve (UI artwork, map markers).
