@@ -5,9 +5,11 @@ Every Guild Wars 2 skill icon, plus boons, conditions and other effects, cleaned
 
 - **Skill icons:** the ragged, hand-painted black frame cut off; one flat style with rounded corners
   and no border.
-- **Boons, conditions and other effects:** their own shape and border kept, with transparent edges.
-  The small flat symbols (boons, conditions) use Real-ESRGAN's line-art model, which keeps their thin
-  outlines even, with only a light touch of grit.
+- **Boons and conditions:** the orange boon and red condition badges (and the trait buffs drawn in the
+  same badges) are plain squares like the skill icons: the badge's own colour fills the square, the
+  symbol sits in the middle, no border. `tools/square_effects.py` makes them. Their symbols use
+  Real-ESRGAN's line-art model, which keeps their thin outlines even, with only a light touch of grit.
+- **Other effects:** their own shape and border kept, with transparent edges.
 - **All icons:** AI upscaled (Real-ESRGAN) to remove the blur of the smaller and older art, then the
   originals' fine grain and brush texture laid back on top, so they keep the artists' gritty look
   instead of a smooth "AI" look.
@@ -27,7 +29,7 @@ From [Releases](../../releases):
 | Path | What it is |
 |---|---|
 | `icons/<file id>.png` | every icon. The file id is the number at the end of the icon's `render.guildwars2.com` URL, so it matches the `icon` field of the GW2 API. |
-| `icons_square/<file id>.png` | the same icons with square corners instead of rounded ones (icons with their own shape, like boons and conditions, are identical in both) |
+| `icons_square/<file id>.png` | the same icons with square corners instead of rounded ones (icons with their own shape, like some effects, are identical in both) |
 | `nameplate-sct-64/` | the rounded icons at 64 × 64 (256-colour PNG) for Nameplate Scrolling Combat Text, with its own `skills.json` and `effect_ids.json`; `make.py` rebuilds it |
 | `skills.json` | skill id → file id. Besides the API's skills, this covers the ids arcdps reports damage under that the API doesn't have (trait procs, pets, relics, siege, mounts, extra hits of a skill), mapped with [Elite Insights](https://github.com/baaron4/GW2-Elite-Insights-Parser)' icon table. Their art that isn't on `render.guildwars2.com` (from the wiki) has file ids from 900000000 up. |
 | `effects.json` | effect name (as the API's skill and trait facts name it, e.g. `"Might"`, `"Poisoned"`) → file id |
