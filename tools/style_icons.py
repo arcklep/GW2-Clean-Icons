@@ -2,7 +2,7 @@
 (github.com/kodewdle/IconPacks).
 Soft: each square shrunk to the game's own 64 px (which drops the grain laid back on the pack), upscaled 4x by
 Real-ESRGAN's anime model (realesrgan-ncnn-vulkan -n realesrgan-x4plus-anime -s 4) for smooth fills and clean outlines,
-and brought back to 128 px with the original's alpha and broad colour (its blur put back under the upscale's detail). Cold and Dark: colour grades of Soft fitted to Simpy's Cold and
+and brought back to 128 px with the original's alpha and broad colour (its blur put back under the upscale's detail), with 60% of the original's fine detail mixed back in. Cold and Dark: colour grades of Soft fitted to Simpy's Cold and
 Dark previews against his Clean one (a degree-3 polynomial in R, G, B, then a square edge shade; 3/255 mean error on
 the preview icons).
 
@@ -76,6 +76,7 @@ def grade(rgb, style):
     return np.clip(out * s[..., None], 0, 1)
 
 
+DETAIL = 0.6   # share of the original's fine detail kept over the upscale's (0: all smooth; option D, picked 2026-11-11)
 SOFT = dict(r=3, eps=0.01, passes=2, sharpen=0.25)
 
 
@@ -86,7 +87,9 @@ def style_image(img, style, upscaled=None):
         # adds contrast): upscaled - blur(upscaled) + blur(original)
         def blur(x):
             return np.stack([gaussian_filter(x[..., c], 4.0) for c in range(3)], -1)
-        rgb = np.clip(upscaled[..., :3] - blur(upscaled[..., :3]) + blur(img[..., :3]), 0, 1)
+        hf_up = upscaled[..., :3] - blur(upscaled[..., :3])
+        hf_orig = img[..., :3] - blur(img[..., :3])
+        rgb = np.clip(blur(img[..., :3]) + (1 - DETAIL) * hf_up + DETAIL * hf_orig, 0, 1)
         a = np.concatenate([rgb, img[..., 3:]], -1)
     else:
         a = soften(img, **SOFT)
