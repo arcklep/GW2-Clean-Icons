@@ -1,9 +1,13 @@
 """style_icons.py: the Soft, Cold and Dark styles of GW2 Clean Squares, after Simpy's IconPacks for World of Warcraft
-(github.com/kodewdle/IconPacks): Soft is an edge-preserving smooth of the squares (grain and brush texture flattened,
-outlines kept), Cold and Dark are colour grades of Soft fitted to Simpy's Cold and Dark previews against his Clean one
-(a degree-3 polynomial in R, G, B, then a square edge shade; 3/255 mean error on the preview icons).
+(github.com/kodewdle/IconPacks).
+Soft: each square shrunk to the game's own 64 px (which drops the grain laid back on the pack), upscaled 4x by
+Real-ESRGAN's anime model (realesrgan-ncnn-vulkan -n realesrgan-x4plus-anime -s 4) for smooth fills and clean outlines,
+and brought back to 128 px with the original's alpha and broad colour (its blur put back under the upscale's detail). Cold and Dark: colour grades of Soft fitted to Simpy's Cold and
+Dark previews against his Clean one (a degree-3 polynomial in R, G, B, then a square edge shade; 3/255 mean error on
+the preview icons).
 
-python tools/style_icons.py <icons_square in> <icons_square out> soft|cold|dark
+python tools/style_icons.py prep <icons_square> <dir of 64 px inputs>       (then run Real-ESRGAN on it)
+python tools/style_icons.py <icons_square> <Real-ESRGAN output dir> <out dir> soft|cold|dark
 """
 import os
 import sys
@@ -75,22 +79,38 @@ def grade(rgb, style):
 SOFT = dict(r=3, eps=0.01, passes=2, sharpen=0.25)
 
 
-def style_image(img, style):
-    a = soften(img, **SOFT)
+def style_image(img, style, upscaled=None):
+    """upscaled: Real-ESRGAN's 4x of the 64 px icon (RGBA 0..1); without it, the edge-preserving smooth below."""
+    if upscaled is not None:
+        # the upscale's detail and outlines, the original's broad colour and brightness (the anime model darkens and
+        # adds contrast): upscaled - blur(upscaled) + blur(original)
+        def blur(x):
+            return np.stack([gaussian_filter(x[..., c], 4.0) for c in range(3)], -1)
+        rgb = np.clip(upscaled[..., :3] - blur(upscaled[..., :3]) + blur(img[..., :3]), 0, 1)
+        a = np.concatenate([rgb, img[..., 3:]], -1)
+    else:
+        a = soften(img, **SOFT)
     if style != "soft":
         a = np.concatenate([grade(a[..., :3], style), a[..., 3:]], -1)
     return a
 
 
 def main():
-    src, dst, style = sys.argv[1], sys.argv[2], sys.argv[3]
+    if sys.argv[1] == "prep":
+        os.makedirs(sys.argv[3], exist_ok=True)
+        for f in sorted(os.listdir(sys.argv[2])):
+            if f.endswith(".png"):
+                Image.open(os.path.join(sys.argv[2], f)).convert("RGBA").resize((64, 64), Image.LANCZOS).save(os.path.join(sys.argv[3], f))
+        return
+    src, up, dst, style = sys.argv[1], sys.argv[2], sys.argv[3], sys.argv[4]
     os.makedirs(dst, exist_ok=True)
     for f in sorted(os.listdir(src)):
         if not f.endswith(".png"):
             continue
         im = Image.open(os.path.join(src, f)).convert("RGBA")
         a = np.asarray(im).astype(float) / 255
-        out = style_image(a, style)
+        u = Image.open(os.path.join(up, f)).convert("RGBA").resize(im.size, Image.LANCZOS)
+        out = style_image(a, style, np.asarray(u).astype(float) / 255)
         Image.fromarray((np.clip(out, 0, 1) * 255 + 0.5).astype(np.uint8), "RGBA").save(os.path.join(dst, f), optimize=True)
 
 
