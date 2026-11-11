@@ -1,3 +1,9 @@
+# GW2 Clean Squares: Soft
+
+This branch holds the **Soft** style of `icons_square/`: an edge-preserving smooth of GW2 Clean Squares: the grain and brush texture flattened, the outlines kept, so the icons read softer and calmer at small sizes. After the Clean, Cold and Dark icon packs Simpy made for World of Warcraft ([kodewdle/IconPacks](https://github.com/kodewdle/IconPacks)); the Cold and Dark grades are fitted to his previews. Made by `tools/style_icons.py` from the `clean-squares` branch; everything else is the same as there.
+
+---
+
 # GW2 Clean Squares
 
 A version of [GW2 Clean Icons](https://github.com/arcklep/GW2-Clean-Icons/tree/main) with **square boons and
